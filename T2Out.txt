@@ -1,0 +1,220 @@
+Project 1: Chicago Traffic Camera Analysis
+CS 341, Fall 2025
+
+This application allows you to analyze various
+aspects of the Chicago traffic camera database.
+
+General Statistics:
+  Number of Red Light Cameras: 365
+  Number of Speed Cameras: 184
+  Number of Red Light Camera Violation Entries: 998,470
+  Number of Speed Camera Violation Entries: 408,256
+  Range of Dates in the Database: 2014-07-01 - 2024-11-28
+  Total Number of Red Light Camera Violations: 6,216,244
+  Total Number of Speed Camera Violations: 16,767,367
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+No red light cameras found at that intersection.
+
+No speed cameras found at that intersection.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> Error, unknown command, try again...
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+Red Light Cameras:
+   1041 : 4800 N CICERO AVE
+   1042 : 4800 N CICERO AVENUE
+
+Speed Cameras:
+   9147 : 4831 W LAWRENCE AVE
+   9149 : 4909 N CICERO AVE
+   9191 : 4949 W LAWRENCE AVE
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+Red Light Cameras:
+   3041 : 300 S MICHIGAN AVE
+   3043 : 100 E JACKSON BLVD
+
+No speed cameras found at that intersection.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+No red light cameras found at that intersection.
+
+Speed Cameras:
+   9008 : 3655 W JACKSON
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+Red Light Cameras:
+   2541 : 7900 S HALSTED STREET
+   2543 : 800 W 79TH STREET
+
+No speed cameras found at that intersection.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+No red light cameras found at that intersection.
+
+Speed Cameras:
+   9077 : 115 N OGDEN
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+No red light cameras found at that intersection.
+
+No speed cameras found at that intersection.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> Error, unknown command, try again...
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+No red light cameras found at that intersection.
+
+No speed cameras found at that intersection.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+No red light cameras found at that intersection.
+
+Speed Cameras:
+   9118 : 5420 S RACINE AVE
+   9119 : 1334 W GARFIELD BLVD
+   9121 : 1315 W GARFIELD BLVD
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> Exiting program.

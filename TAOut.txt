@@ -1,0 +1,2107 @@
+Project 1: Chicago Traffic Camera Analysis
+CS 341, Fall 2025
+
+This application allows you to analyze various
+aspects of the Chicago traffic camera database.
+
+General Statistics:
+  Number of Red Light Cameras: 365
+  Number of Speed Cameras: 184
+  Number of Red Light Camera Violation Entries: 998,470
+  Number of Speed Camera Violation Entries: 408,256
+  Range of Dates in the Database: 2014-07-01 - 2024-11-28
+  Total Number of Red Light Camera Violations: 6,216,244
+  Total Number of Speed Camera Violations: 16,767,367
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the date that you would like to look at (format should be YYYY-MM-DD): Number of Red Light Violations: 2,264 (21.757%)
+Number of Speed Violations: 8,142 (78.243%)
+Total Number of Violations: 10,406
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection to find (wildcards _ and % allowed): 5070 : MICHIGAN AVE AND 63RD ST
+5017 : MICHIGAN AVE AND 95TH ST
+5248 : MICHIGAN AVE AND JACKSON BLVD
+5251 : MICHIGAN AVE AND ONTARIO ST
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Number of Red Light Cameras at Each Intersection
+  STONY ISLAND AVE AND 79TH ST (5221) : 4 (1.096%)
+  PULASKI RD AND NORTH AVE (5075) : 4 (1.096%)
+  KOSTNER AVE AND NORTH AVE (5185) : 3 (0.822%)
+  CALIFORNIA AVE AND DIVERSEY AVE (5143) : 3 (0.822%)
+  DAMEN AVE AND DIVERSEY PKWY (5136) : 3 (0.822%)
+  KEDZIE AVE AND BELMONT AVE (5131) : 3 (0.822%)
+  MICHIGAN AVE AND ONTARIO ST (5251) : 2 (0.548%)
+  UPPER WACKER DR AND LAKE ST (5249) : 2 (0.548%)
+  MICHIGAN AVE AND JACKSON BLVD (5248) : 2 (0.548%)
+  CENTRAL AVE AND MILWAUKEE AVE (5247) : 2 (0.548%)
+  NORTHWEST HWY AND FOSTER AVE (5246) : 2 (0.548%)
+  KILPATRICK AVE AND IRVING PARK RD (5245) : 2 (0.548%)
+  KIMBALL AVE/MCCORMICK BLVD AND LINCOLN AVE (5244) : 2 (0.548%)
+  STONY ISLAND AVE/CORNELL DR AND 67TH ST (5243) : 2 (0.548%)
+  STATE ST AND 63RD ST (5242) : 2 (0.548%)
+  DAMEN AVE AND 63RD ST (5241) : 2 (0.548%)
+  HALSTED ST AND 63RD ST (5240) : 2 (0.548%)
+  ASHLAND AVE AND 63RD ST (5239) : 2 (0.548%)
+  WESTERN AVE AND MARQUETTE RD (5238) : 2 (0.548%)
+  JEFFERY BLVD AND 79TH ST (5237) : 2 (0.548%)
+  STATE ST AND 79TH ST (5236) : 2 (0.548%)
+  HALSTED ST AND 83RD ST (5235) : 2 (0.548%)
+  STONEY ISLAND AVE AND 76TH ST (5234) : 2 (0.548%)
+  STATE ST AND 75TH ST (5233) : 2 (0.548%)
+  WESTERN AVE AND 71ST ST (5232) : 2 (0.548%)
+  COTTAGE GROVE AVE AND 95TH ST (5231) : 2 (0.548%)
+  HALSTED ST AND 103RD ST (5230) : 2 (0.548%)
+  HALSTED ST AND 95TH ST (5229) : 2 (0.548%)
+  HALSTED ST AND 115TH ST (5227) : 2 (0.548%)
+  HALSTED ST AND 79TH ST (5226) : 2 (0.548%)
+  JEFFERY BLVD AND 95TH ST (5225) : 2 (0.548%)
+  STONY ISLAND AVE AND 95TH ST (5224) : 2 (0.548%)
+  LAFAYETTE AVE AND 87TH ST (5223) : 2 (0.548%)
+  ASHLAND AVE AND 95TH ST (5222) : 2 (0.548%)
+  ASHLAND AVE AND 87TH ST (5220) : 2 (0.548%)
+  KEDZIE AVE AND 79TH ST (5219) : 2 (0.548%)
+  HALSTED ST AND 99TH ST (5218) : 2 (0.548%)
+  HALSTED ST AND 111TH ST (5217) : 2 (0.548%)
+  VINCENNES AVE AND 87TH ST (5216) : 2 (0.548%)
+  HALSTED ST AND 119TH ST (5215) : 2 (0.548%)
+  ASHLAND AVE AND 71ST ST (5214) : 2 (0.548%)
+  KEDZIE AVE AND 26TH ST (5213) : 2 (0.548%)
+  WESTERN AVE AND 63RD ST (5212) : 2 (0.548%)
+  KEDZIE AVE AND 63RD ST (5211) : 2 (0.548%)
+  PULASKI RD AND 63RD ST (5210) : 2 (0.548%)
+  PULASKI RD AND CERMAK RD (5209) : 2 (0.548%)
+  KOSTNER AVE AND ROOSEVELT RD (5208) : 2 (0.548%)
+  CANAL ST AND ROOSEVELT RD (5207) : 2 (0.548%)
+  DAMEN AVE AND BLUE ISLAND AVE (5206) : 2 (0.548%)
+  ASHLAND AVE AND GARFIELD BLVD (5205) : 2 (0.548%)
+  WENTWORTH AVE AND GARFIELD BLVD (5204) : 2 (0.548%)
+  CICERO AVE AND I55 (5203) : 2 (0.548%)
+  HALSTED ST AND ROOSEVELT RD (5202) : 2 (0.548%)
+  KOSTNER AVE AND OGDEN AVE (5201) : 2 (0.548%)
+  CICERO AVE AND 47TH ST (5200) : 2 (0.548%)
+  ASHLAND AVE AND 47TH ST (5199) : 2 (0.548%)
+  CORNELL DR AND 57TH ST (5198) : 2 (0.548%)
+  WESTERN AVE AND 47TH ST (5197) : 2 (0.548%)
+  KEDZIE AVE AND 31ST ST (5196) : 2 (0.548%)
+  MARTIN LUTHER KING DR AND 31ST ST (5195) : 2 (0.548%)
+  KEDZIE AVE AND 47TH ST (5194) : 2 (0.548%)
+  WESTERN AVE AND 35TH ST (5193) : 2 (0.548%)
+  CICERO AVE AND ARCHER AVE (5192) : 2 (0.548%)
+  NARRAGANSETT AVE AND ARCHER AVE/55TH ST (5191) : 2 (0.548%)
+  CALIFORNIA AVE AND 31ST ST (5190) : 2 (0.548%)
+  WESTERN AVE AND VAN BUREN ST (5189) : 2 (0.548%)
+  LARAMIE AVE AND MADISON ST (5188) : 2 (0.548%)
+  CICERO AVE AND NORTH AVE (5187) : 2 (0.548%)
+  CICERO AVE AND HARRISON ST (5186) : 2 (0.548%)
+  CICERO AVE AND ARMITAGE AVE (5184) : 2 (0.548%)
+  CENTRAL AVE AND CHICAGO AVE (5183) : 2 (0.548%)
+  WESTERN AVE AND CHICAGO AVE (5182) : 2 (0.548%)
+  WESTERN AVE AND MADISON ST (5181) : 2 (0.548%)
+  LASALLE DR AND KINZIE ST (5180) : 2 (0.548%)
+  ASHLAND AVE AND MADISON ST (5179) : 2 (0.548%)
+  HAMLIN AVE AND MADISON ST (5178) : 2 (0.548%)
+  CICERO AVE AND WASHINGTON BLVD (5177) : 2 (0.548%)
+  HAMLIN AVE AND LAKE ST (5176) : 2 (0.548%)
+  HALSTED ST AND MADISON ST (5175) : 2 (0.548%)
+  WESTERN AVE AND ARMITAGE AVE (5174) : 2 (0.548%)
+  WESTERN AVE AND NORTH AVE (5173) : 2 (0.548%)
+  PULASKI RD AND ARMITAGE AVE (5172) : 2 (0.548%)
+  KEDZIE AVE AND ARMITAGE AVE (5171) : 2 (0.548%)
+  SACRAMENTO BLVD AND LAKE ST (5170) : 2 (0.548%)
+  SACRAMENTO BLVD AND CHICAGO AVE (5169) : 2 (0.548%)
+  PULASKI RD AND DIVISION ST (5168) : 2 (0.548%)
+  ASHLAND AVE AND DIVISION ST (5167) : 2 (0.548%)
+  CICERO AVE AND CHICAGO AVE (5166) : 2 (0.548%)
+  HOMAN/KIMBALL AVE AND NORTH AVE (5165) : 2 (0.548%)
+  HALSTED ST AND NORTH AVE (5164) : 2 (0.548%)
+  CENTRAL AVE AND MADISON ST (5163) : 2 (0.548%)
+  CENTRAL AVE AND LAKE ST (5162) : 2 (0.548%)
+  DAMEN AVE AND DIVISION ST (5161) : 2 (0.548%)
+  ASHLAND AVE AND CORTLAND ST (5160) : 2 (0.548%)
+  HALSTED ST AND DIVISION ST (5159) : 2 (0.548%)
+  HALSTED ST AND FULLERTON PKWY (5158) : 2 (0.548%)
+  CICERO AVE AND DIVERSEY AVE (5157) : 2 (0.548%)
+  CENTRAL AVE AND ADDISON ST (5156) : 2 (0.548%)
+  WESTERN AVE AND FULLERTON AVE (5155) : 2 (0.548%)
+  DAMEN AVE AND FULLERTON AVE (5154) : 2 (0.548%)
+  CENTRAL AVE AND DIVERSEY AVE (5153) : 2 (0.548%)
+  CLARK ST AND FULLERTON AVE (5152) : 2 (0.548%)
+  ASHLAND AVE AND DIVERSEY PKWY (5151) : 2 (0.548%)
+  CICERO AVE AND ADDISON ST (5150) : 2 (0.548%)
+  CENTRAL AVE AND BELMONT AVE (5149) : 2 (0.548%)
+  HARLEM AVE AND ADDISON ST (5148) : 2 (0.548%)
+  KIMBALL AVE AND DIVERSEY AVE (5147) : 2 (0.548%)
+  PULASKI RD AND IRVING PARK RD (5146) : 2 (0.548%)
+  LARAMIE AVE AND IRVING PARK RD (5145) : 2 (0.548%)
+  OAK PARK AVE AND GRAND AVE (5144) : 2 (0.548%)
+  ELSTON AVE AND IRVING PARK RD (5142) : 2 (0.548%)
+  AUSTIN AVE AND ADDISON ST (5141) : 2 (0.548%)
+  PULASKI RD AND FULLERTON AVE (5140) : 2 (0.548%)
+  AUSTIN AVE AND DIVERSEY AVE (5139) : 2 (0.548%)
+  WESTERN AVE AND DIVERSEY AVE (5138) : 2 (0.548%)
+  LAKE SHORE DR AND BELMONT AVE (5135) : 2 (0.548%)
+  ELSTON AVE AND ADDISON ST (5134) : 2 (0.548%)
+  HARLEM AVE AND BELMONT AVE (5133) : 2 (0.548%)
+  PULASKI RD AND BELMONT AVE (5132) : 2 (0.548%)
+  MILWAUKEE AVE AND MONTROSE AVE (5130) : 2 (0.548%)
+  KEDZIE AVE AND IRVING PARK RD (5129) : 2 (0.548%)
+  SHERIDAN RD AND HOLLYWOOD AVE (5128) : 2 (0.548%)
+  CALIFORNIA AVE AND DEVON AVE (5127) : 2 (0.548%)
+  CALIFORNIA AVE AND PETERSON AVE (5126) : 2 (0.548%)
+  WESTERN AVE AND PRATT BLVD (5125) : 2 (0.548%)
+  PULASKI RD AND MONTROSE AVE (5124) : 2 (0.548%)
+  ELSTON AVE AND LAWRENCE AVE (5123) : 2 (0.548%)
+  MILWAUKEE AVE AND DEVON AVE (5122) : 2 (0.548%)
+  PULASKI RD AND PETERSON AVE (5121) : 2 (0.548%)
+  WESTERN AVE AND TOUHY AVE (5120) : 2 (0.548%)
+  OSCEOLA AVE AND TOUHY AVE (5119) : 2 (0.548%)
+  WESTERN AVE AND LAWRENCE AVE (5118) : 2 (0.548%)
+  PULASKI AVE AND LAWRENCE AVE (5117) : 2 (0.548%)
+  AUSTIN AVE AND IRVING PARK RD (5116) : 2 (0.548%)
+  ASHLAND AVE AND IRVING PARK RD (5115) : 2 (0.548%)
+  ASHLAND AVE AND LAWRENCE AVE (5114) : 2 (0.548%)
+  SHERIDAN RD AND FOSTER AVE (5113) : 2 (0.548%)
+  BROADWAY AND DEVON AVE (5112) : 2 (0.548%)
+  BROADWAY AND FOSTER AVE (5111) : 2 (0.548%)
+  CLARK ST AND IRVING PARK RD (5110) : 2 (0.548%)
+  HARLEM AVE AND NORTHWEST HWY (5109) : 2 (0.548%)
+  WESTERN AVE AND FOSTER AVE (5108) : 2 (0.548%)
+  ELSTON AVE AND FOSTER AVE (5107) : 2 (0.548%)
+  NAGLE AVE AND FOSTER AVE (5106) : 2 (0.548%)
+  WESTERN AVE AND PETERSON AVE (5105) : 2 (0.548%)
+  STONY ISLAND AVE AND 83RD ST (5098) : 2 (0.548%)
+  CLARK ST AND CHICAGO AVE (5091) : 2 (0.548%)
+  PULASKI RD AND DIVERSEY AVE (5083) : 2 (0.548%)
+  WESTERN BLVD AND 51ST ST (5081) : 2 (0.548%)
+  KEDZIE AVE AND 55TH ST (5078) : 2 (0.548%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 2 (0.548%)
+  CICERO AVE AND LAWRENCE AVE (5071) : 2 (0.548%)
+  ASHLAND AVE AND ARCHER AVE (5068) : 2 (0.548%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 2 (0.548%)
+  CICERO AVE AND PETERSON AVE (5054) : 2 (0.548%)
+  WESTERN AVE AND CERMAK RD (5052) : 2 (0.548%)
+  PULASKI RD AND CHICAGO AVE (5051) : 2 (0.548%)
+  CLARK ST AND RIDGE AVE (5043) : 2 (0.548%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 2 (0.548%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 2 (0.548%)
+  CALIFORNIA AVE AND IRVING PARK RD (5037) : 2 (0.548%)
+  PULASKI RD AND 79TH ST (5033) : 2 (0.548%)
+  WESTERN AVE AND 55TH ST (5032) : 2 (0.548%)
+  WESTERN AVE AND 79TH ST (5031) : 2 (0.548%)
+  PULASKI RD AND 55TH ST (5029) : 2 (0.548%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 2 (0.548%)
+  WESTERN AVE AND DEVON AVE (5025) : 2 (0.548%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 2 (0.548%)
+  CICERO AVE AND FULLERTON AVE (5021) : 2 (0.548%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 2 (0.548%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 2 (0.548%)
+  PULASKI RD AND ARCHER AVE (5015) : 2 (0.548%)
+  WESTERN AVE AND ADDISON ST (5014) : 2 (0.548%)
+  VINCENNES AVE AND 111TH ST (5011) : 2 (0.548%)
+  KEDZIE AVE AND 71ST ST (5008) : 2 (0.548%)
+  WESTERN BLVD AND PERSHING RD (5002) : 2 (0.548%)
+  PULASKI RD AND FOSTER AVE (5001) : 2 (0.548%)
+  DAMEN AVE AND ELSTON AVE (5250) : 1 (0.274%)
+  COTTAGE GROVE AVE AND 71ST ST (5228) : 1 (0.274%)
+  LARAMIE AVE AND FULLERTON AVE (5137) : 1 (0.274%)
+
+Number of Speed Cameras at Each Intersection
+  PULASKI RD AND 55TH ST (5029) : 6 (3.261%)
+  PULASKI RD AND 79TH ST (5033) : 5 (2.717%)
+  WESTERN AVE AND CERMAK RD (5052) : 4 (2.174%)
+  NARRAGANSETT AVE AND BELMONT AVE (5050) : 4 (2.174%)
+  WESTERN AVE AND 79TH ST (5031) : 4 (2.174%)
+  SOUTH CHICAGO AVE AND 71ST ST (5085) : 3 (1.630%)
+  FOREST PRESERVE DR AND ADDISON ST (5082) : 3 (1.630%)
+  ASHLAND AVE AND 83RD ST (5079) : 3 (1.630%)
+  KEDZIE AVE AND 55TH ST (5078) : 3 (1.630%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 3 (1.630%)
+  PULASKI RD AND NORTH AVE (5075) : 3 (1.630%)
+  CICERO AVE AND LAWRENCE AVE (5071) : 3 (1.630%)
+  STATE ST AND CHICAGO AVE (5063) : 3 (1.630%)
+  WESTERN AVE AND DIVISION ST (5061) : 3 (1.630%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 3 (1.630%)
+  RACINE AVE AND GARFIELD BLVD (5056) : 3 (1.630%)
+  CICERO AVE AND PETERSON AVE (5054) : 3 (1.630%)
+  PULASKI RD AND CHICAGO AVE (5051) : 3 (1.630%)
+  WESTERN AVE AND 51ST ST (5046) : 3 (1.630%)
+  MILWAUKEE AVE AND BELMONT AVE (5040) : 3 (1.630%)
+  WESTERN AVE AND 55TH ST (5032) : 3 (1.630%)
+  PULASKI RD AND ARCHER AVE (5015) : 3 (1.630%)
+  WESTERN AVE AND ADDISON ST (5014) : 3 (1.630%)
+  KEDZIE AVE AND 71ST ST (5008) : 3 (1.630%)
+  MILWAUKEE AVE AND DIVISION ST (5086) : 2 (1.087%)
+  PULASKI RD AND 47TH ST (5084) : 2 (1.087%)
+  ASHLAND AVE AND LINCOLN AVE (5080) : 2 (1.087%)
+  WESTERN AVE AND 103RD ST (5073) : 2 (1.087%)
+  EWING AVE AND 95TH ST (5065) : 2 (1.087%)
+  VINCENNES AVE AND 76TH ST (5064) : 2 (1.087%)
+  ASHLAND AVE AND NORTH AVE (5053) : 2 (1.087%)
+  JEFFERY BLVD AND 75TH ST (5047) : 2 (1.087%)
+  BROADWAY AND MONTROSE AVE (5045) : 2 (1.087%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 2 (1.087%)
+  CALIFORNIA AVE AND IRVING PARK RD (5037) : 2 (1.087%)
+  ASHLAND AVE AND LAKE ST (5034) : 2 (1.087%)
+  CENTRAL AVE AND JACKSON BLVD (5028) : 2 (1.087%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 2 (1.087%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 2 (1.087%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 2 (1.087%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 2 (1.087%)
+  MICHIGAN AVE AND 95TH ST (5017) : 2 (1.087%)
+  STATE ST AND HARRISON ST (5016) : 2 (1.087%)
+  VINCENNES AVE AND 111TH ST (5011) : 2 (1.087%)
+  CALIFORNIA AVE AND ROOSEVELT RD (5009) : 2 (1.087%)
+  COTTAGE GROVE AVE AND 55TH ST (5007) : 2 (1.087%)
+  WESTERN BLVD AND PERSHING RD (5002) : 2 (1.087%)
+  PULASKI RD AND FOSTER AVE (5001) : 2 (1.087%)
+  CALIFORNIA AVE AND 103RD ST (5104) : 1 (0.543%)
+  LONGWOOD DR AND 99TH ST (5103) : 1 (0.543%)
+  WESTERN AVE AND 107TH PL (5102) : 1 (0.543%)
+  HALSTED ST AND 43RD ST (5101) : 1 (0.543%)
+  WESTERN AVE AND IRVING PARK RD (5100) : 1 (0.543%)
+  KEDZIE BLVD AND FULLERTON AVE (5099) : 1 (0.543%)
+  STONY ISLAND AVE AND 83RD ST (5098) : 1 (0.543%)
+  HALSTED ST AND 35TH ST (5097) : 1 (0.543%)
+  KEDZIE AVE AND 16TH ST (5096) : 1 (0.543%)
+  CICERO AVE AND MARQUETTE RD (5095) : 1 (0.543%)
+  HARLEM AVE AND TOUHY AVE (5094) : 1 (0.543%)
+  AUSTIN AVE AND FOSTER AVE (5093) : 1 (0.543%)
+  MILWAUKEE AVE AND ADDISON ST (5092) : 1 (0.543%)
+  CLARK ST AND CHICAGO AVE (5091) : 1 (0.543%)
+  OAK PARK AVE AND ADDISON ST (5090) : 1 (0.543%)
+  CLARK ST AND LINCOLN AVE (5089) : 1 (0.543%)
+  CALIFORNIA AVE AND FULLERTON AVE (5088) : 1 (0.543%)
+  RACINE AVE AND 76TH ST (5087) : 1 (0.543%)
+  PULASKI RD AND DIVERSEY AVE (5083) : 1 (0.543%)
+  WESTERN BLVD AND 51ST ST (5081) : 1 (0.543%)
+  NORTHWEST HWY AND BRYN MAWR AVE (5076) : 1 (0.543%)
+  NAGLE AVE AND NORTHWEST HWY (5074) : 1 (0.543%)
+  MARTIN LUTHER KING DR AND 63RD ST (5072) : 1 (0.543%)
+  MICHIGAN AVE AND 63RD ST (5070) : 1 (0.543%)
+  JEFFERY BLVD AND 87TH ST (5069) : 1 (0.543%)
+  ASHLAND AVE AND ARCHER AVE (5068) : 1 (0.543%)
+  ASHLAND AVE AND CERMAK RD (5067) : 1 (0.543%)
+  EWING AVE AND 96TH ST (5066) : 1 (0.543%)
+  CENTRAL AVE AND HARRISON ST (5062) : 1 (0.543%)
+  KEDZIE AVE AND JACKSON BLVD (5059) : 1 (0.543%)
+  SACRAMENTO BLVD AND JACKSON BLVD (5058) : 1 (0.543%)
+  INDIANAPOLIS AVE AND 103RD ST (5057) : 1 (0.543%)
+  HALSTED ST AND 31ST ST (5055) : 1 (0.543%)
+  MILWAUKEE AVE AND LAWRENCE AVE (5049) : 1 (0.543%)
+  MILWAUKEE AVE AND HIGGINS AVE (5048) : 1 (0.543%)
+  SHERIDAN RD AND IRVING PARK RD (5044) : 1 (0.543%)
+  CLARK ST AND RIDGE AVE (5043) : 1 (0.543%)
+  CLYBOURN AVE AND FULLERTON AVE (5041) : 1 (0.543%)
+  CICERO AVE AND BELMONT AVE (5039) : 1 (0.543%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 1 (0.543%)
+  CALIFORNIA AVE AND MONTROSE AVE (5036) : 1 (0.543%)
+  OGDEN AVE AND WASHINGTON BLVD (5035) : 1 (0.543%)
+  VINCENNES AVE AND 75TH ST (5030) : 1 (0.543%)
+  LINCOLN AVE AND MONTROSE AVE (5027) : 1 (0.543%)
+  WESTERN AVE AND DEVON AVE (5025) : 1 (0.543%)
+  PULASKI RD AND 111TH ST (5023) : 1 (0.543%)
+  HALSTED ST AND 127TH ST (5022) : 1 (0.543%)
+  CICERO AVE AND FULLERTON AVE (5021) : 1 (0.543%)
+  CENTRAL AVE AND GRAND AVE (5020) : 1 (0.543%)
+  KEDZIE AVE AND FOSTER AVE (5013) : 1 (0.543%)
+  LINCOLN AVE AND PETERSON AVE (5012) : 1 (0.543%)
+  OGDEN AVE AND TAYLOR ST (5010) : 1 (0.543%)
+  KEDZIE AVE AND AUGUSTA BLVD (5006) : 1 (0.543%)
+  HUMBOLDT DR AND NORTH AVE (5005) : 1 (0.543%)
+  CENTRAL PARK AVE AND MADISON ST (5004) : 1 (0.543%)
+  CENTRAL PARK AVE AND JACKSON BLVD (5003) : 1 (0.543%)
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> Error, unknown command, try again...
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: Yearly Violations for Camera 2234
+2014 : 2,099
+2015 : 5,962
+2016 : 6,489
+2017 : 4,178
+2018 : 5,482
+2019 : 2,990
+2020 : 3,748
+2021 : 3,488
+2022 : 4,588
+2023 : 4,560
+2024 : 1,109
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: Enter a year: Monthly Violations for Camera 2461 in 2024
+01/2024 : 10
+02/2024 : 5
+03/2024 : 22
+04/2024 : 41
+05/2024 : 22
+06/2024 : 43
+09/2024 : 34
+10/2024 : 35
+11/2024 : 22
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the year that you would like to analyze: 
+Number of Red Light Violations at Each Intersection for 2012
+No red light violations on record for that year.
+
+Number of Speed Violations at Each Intersection for 2012
+No speed violations on record for that year.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the date that you would like to look at (format should be YYYY-MM-DD): No violations on record for that date.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection to find (wildcards _ and % allowed): 5139 : AUSTIN AVE AND DIVERSEY AVE
+5143 : CALIFORNIA AVE AND DIVERSEY AVE
+5153 : CENTRAL AVE AND DIVERSEY AVE
+5157 : CICERO AVE AND DIVERSEY AVE
+5147 : KIMBALL AVE AND DIVERSEY AVE
+5083 : PULASKI RD AND DIVERSEY AVE
+5138 : WESTERN AVE AND DIVERSEY AVE
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a year: Red Light Violations:
+2020-01-01 1325
+2020-01-02 1057
+2020-01-03 1124
+2020-01-04 1172
+2020-01-05 1249
+2020-12-27 1304
+2020-12-28 1302
+2020-12-29 1048
+2020-12-30 1095
+2020-12-31 1538
+Speed Violations:
+2020-01-01 2154
+2020-01-02 1806
+2020-01-03 2376
+2020-01-04 1974
+2020-01-05 2223
+2020-12-27 2497
+2020-12-28 2303
+2020-12-29 1374
+2020-12-30 1364
+2020-12-31 2224
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+No red light cameras found at that intersection.
+
+No speed cameras found at that intersection.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the year that you would like to analyze: 
+Number of Red Light Violations at Each Intersection for 2023
+  LAKE SHORE DR AND BELMONT AVE (5135) : 29,432 (3.981%)
+  CICERO AVE AND I55 (5203) : 27,913 (3.776%)
+  WENTWORTH AVE AND GARFIELD BLVD (5204) : 22,169 (2.999%)
+  LAFAYETTE AVE AND 87TH ST (5223) : 21,845 (2.955%)
+  STONY ISLAND AVE/CORNELL DR AND 67TH ST (5243) : 20,208 (2.734%)
+  STATE ST AND 79TH ST (5236) : 14,797 (2.002%)
+  HALSTED ST AND 99TH ST (5218) : 14,580 (1.972%)
+  SHERIDAN RD AND HOLLYWOOD AVE (5128) : 14,425 (1.951%)
+  CALIFORNIA AVE AND DIVERSEY AVE (5143) : 13,914 (1.882%)
+  WESTERN AVE AND VAN BUREN ST (5189) : 13,476 (1.823%)
+  CICERO AVE AND WASHINGTON BLVD (5177) : 12,734 (1.723%)
+  STATE ST AND 75TH ST (5233) : 11,833 (1.601%)
+  UPPER WACKER DR AND LAKE ST (5249) : 11,815 (1.598%)
+  KOSTNER AVE AND NORTH AVE (5185) : 11,728 (1.586%)
+  STONEY ISLAND AVE AND 76TH ST (5234) : 11,405 (1.543%)
+  VINCENNES AVE AND 87TH ST (5216) : 9,688 (1.310%)
+  ASHLAND AVE AND CORTLAND ST (5160) : 8,847 (1.197%)
+  CICERO AVE AND ARCHER AVE (5192) : 8,348 (1.129%)
+  HALSTED ST AND ROOSEVELT RD (5202) : 8,189 (1.108%)
+  KOSTNER AVE AND OGDEN AVE (5201) : 7,792 (1.054%)
+  MARTIN LUTHER KING DR AND 31ST ST (5195) : 7,690 (1.040%)
+  CANAL ST AND ROOSEVELT RD (5207) : 7,456 (1.009%)
+  ASHLAND AVE AND 95TH ST (5222) : 7,412 (1.003%)
+  CENTRAL AVE AND CHICAGO AVE (5183) : 6,747 (0.913%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 6,579 (0.890%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 6,378 (0.863%)
+  BROADWAY AND DEVON AVE (5112) : 6,368 (0.861%)
+  STATE ST AND 63RD ST (5242) : 6,348 (0.859%)
+  KEDZIE AVE AND BELMONT AVE (5131) : 6,060 (0.820%)
+  HALSTED ST AND 119TH ST (5215) : 5,903 (0.798%)
+  CENTRAL AVE AND LAKE ST (5162) : 5,757 (0.779%)
+  DAMEN AVE AND DIVISION ST (5161) : 5,481 (0.741%)
+  WESTERN AVE AND FULLERTON AVE (5155) : 5,396 (0.730%)
+  ELSTON AVE AND ADDISON ST (5134) : 5,317 (0.719%)
+  HALSTED ST AND 111TH ST (5217) : 5,290 (0.716%)
+  HAMLIN AVE AND LAKE ST (5176) : 5,186 (0.702%)
+  SACRAMENTO BLVD AND CHICAGO AVE (5169) : 5,182 (0.701%)
+  CLARK ST AND CHICAGO AVE (5091) : 5,064 (0.685%)
+  ASHLAND AVE AND 87TH ST (5220) : 5,049 (0.683%)
+  WESTERN AVE AND PETERSON AVE (5105) : 4,977 (0.673%)
+  CICERO AVE AND NORTH AVE (5187) : 4,969 (0.672%)
+  KEDZIE AVE AND ARMITAGE AVE (5171) : 4,887 (0.661%)
+  STONY ISLAND AVE AND 79TH ST (5221) : 4,721 (0.639%)
+  CICERO AVE AND HARRISON ST (5186) : 4,718 (0.638%)
+  LARAMIE AVE AND MADISON ST (5188) : 4,696 (0.635%)
+  HALSTED ST AND FULLERTON PKWY (5158) : 4,652 (0.629%)
+  NAGLE AVE AND FOSTER AVE (5106) : 4,648 (0.629%)
+  SACRAMENTO BLVD AND LAKE ST (5170) : 4,589 (0.621%)
+  KOSTNER AVE AND ROOSEVELT RD (5208) : 4,553 (0.616%)
+  MICHIGAN AVE AND JACKSON BLVD (5248) : 4,523 (0.612%)
+  HALSTED ST AND 79TH ST (5226) : 4,465 (0.604%)
+  ASHLAND AVE AND DIVISION ST (5167) : 4,431 (0.599%)
+  WESTERN AVE AND MARQUETTE RD (5238) : 4,403 (0.596%)
+  CICERO AVE AND ADDISON ST (5150) : 4,343 (0.587%)
+  CICERO AVE AND LAWRENCE AVE (5071) : 4,332 (0.586%)
+  DAMEN AVE AND 63RD ST (5241) : 4,280 (0.579%)
+  DAMEN AVE AND FULLERTON AVE (5154) : 4,202 (0.568%)
+  WESTERN AVE AND MADISON ST (5181) : 4,093 (0.554%)
+  MICHIGAN AVE AND ONTARIO ST (5251) : 4,042 (0.547%)
+  ELSTON AVE AND IRVING PARK RD (5142) : 4,020 (0.544%)
+  WESTERN AVE AND ADDISON ST (5014) : 4,019 (0.544%)
+  PULASKI RD AND CERMAK RD (5209) : 3,951 (0.534%)
+  LARAMIE AVE AND IRVING PARK RD (5145) : 3,950 (0.534%)
+  CICERO AVE AND CHICAGO AVE (5166) : 3,897 (0.527%)
+  HAMLIN AVE AND MADISON ST (5178) : 3,893 (0.527%)
+  WESTERN AVE AND CERMAK RD (5052) : 3,888 (0.526%)
+  ASHLAND AVE AND LAWRENCE AVE (5114) : 3,873 (0.524%)
+  ELSTON AVE AND LAWRENCE AVE (5123) : 3,835 (0.519%)
+  LASALLE DR AND KINZIE ST (5180) : 3,805 (0.515%)
+  KILPATRICK AVE AND IRVING PARK RD (5245) : 3,791 (0.513%)
+  KEDZIE AVE AND 26TH ST (5213) : 3,775 (0.511%)
+  CALIFORNIA AVE AND IRVING PARK RD (5037) : 3,771 (0.510%)
+  ASHLAND AVE AND 71ST ST (5214) : 3,698 (0.500%)
+  HOMAN/KIMBALL AVE AND NORTH AVE (5165) : 3,698 (0.500%)
+  DAMEN AVE AND DIVERSEY PKWY (5136) : 3,680 (0.498%)
+  HALSTED ST AND NORTH AVE (5164) : 3,661 (0.495%)
+  PULASKI RD AND FOSTER AVE (5001) : 3,578 (0.484%)
+  HARLEM AVE AND BELMONT AVE (5133) : 3,458 (0.468%)
+  WESTERN AVE AND 35TH ST (5193) : 3,457 (0.468%)
+  PULASKI RD AND DIVISION ST (5168) : 3,366 (0.455%)
+  KEDZIE AVE AND 47TH ST (5194) : 3,307 (0.447%)
+  PULASKI RD AND CHICAGO AVE (5051) : 3,270 (0.442%)
+  PULASKI RD AND BELMONT AVE (5132) : 3,244 (0.439%)
+  HALSTED ST AND DIVISION ST (5159) : 3,219 (0.435%)
+  PULASKI RD AND IRVING PARK RD (5146) : 3,158 (0.427%)
+  KEDZIE AVE AND 71ST ST (5008) : 3,079 (0.416%)
+  CICERO AVE AND 47TH ST (5200) : 3,071 (0.415%)
+  WESTERN AVE AND TOUHY AVE (5120) : 3,067 (0.415%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 3,054 (0.413%)
+  HALSTED ST AND MADISON ST (5175) : 3,029 (0.410%)
+  PULASKI RD AND ARMITAGE AVE (5172) : 2,994 (0.405%)
+  ASHLAND AVE AND MADISON ST (5179) : 2,991 (0.405%)
+  BROADWAY AND FOSTER AVE (5111) : 2,954 (0.400%)
+  PULASKI RD AND 63RD ST (5210) : 2,944 (0.398%)
+  WESTERN AVE AND DIVERSEY AVE (5138) : 2,933 (0.397%)
+  WESTERN AVE AND 55TH ST (5032) : 2,928 (0.396%)
+  PULASKI RD AND 55TH ST (5029) : 2,890 (0.391%)
+  HARLEM AVE AND ADDISON ST (5148) : 2,866 (0.388%)
+  PULASKI RD AND FULLERTON AVE (5140) : 2,850 (0.386%)
+  ASHLAND AVE AND IRVING PARK RD (5115) : 2,850 (0.386%)
+  CLARK ST AND IRVING PARK RD (5110) : 2,841 (0.384%)
+  HALSTED ST AND 95TH ST (5229) : 2,837 (0.384%)
+  KEDZIE AVE AND 31ST ST (5196) : 2,715 (0.367%)
+  KIMBALL AVE AND DIVERSEY AVE (5147) : 2,711 (0.367%)
+  WESTERN AVE AND 47TH ST (5197) : 2,708 (0.366%)
+  NORTHWEST HWY AND FOSTER AVE (5246) : 2,692 (0.364%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 2,670 (0.361%)
+  CALIFORNIA AVE AND PETERSON AVE (5126) : 2,594 (0.351%)
+  WESTERN AVE AND FOSTER AVE (5108) : 2,477 (0.335%)
+  CICERO AVE AND DIVERSEY AVE (5157) : 2,462 (0.333%)
+  WESTERN AVE AND 63RD ST (5212) : 2,461 (0.333%)
+  WESTERN AVE AND 79TH ST (5031) : 2,456 (0.332%)
+  COTTAGE GROVE AVE AND 71ST ST (5228) : 2,437 (0.330%)
+  JEFFERY BLVD AND 95TH ST (5225) : 2,432 (0.329%)
+  PULASKI AVE AND LAWRENCE AVE (5117) : 2,302 (0.311%)
+  AUSTIN AVE AND ADDISON ST (5141) : 2,274 (0.308%)
+  WESTERN AVE AND NORTH AVE (5173) : 2,271 (0.307%)
+  CENTRAL AVE AND MILWAUKEE AVE (5247) : 2,254 (0.305%)
+  MILWAUKEE AVE AND DEVON AVE (5122) : 2,196 (0.297%)
+  KEDZIE AVE AND 63RD ST (5211) : 2,177 (0.294%)
+  WESTERN AVE AND LAWRENCE AVE (5118) : 2,111 (0.286%)
+  DAMEN AVE AND ELSTON AVE (5250) : 2,091 (0.283%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 2,081 (0.281%)
+  PULASKI RD AND NORTH AVE (5075) : 2,013 (0.272%)
+  PULASKI RD AND 79TH ST (5033) : 1,995 (0.270%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 1,987 (0.269%)
+  CLARK ST AND FULLERTON AVE (5152) : 1,972 (0.267%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 1,957 (0.265%)
+  MILWAUKEE AVE AND MONTROSE AVE (5130) : 1,934 (0.262%)
+  AUSTIN AVE AND DIVERSEY AVE (5139) : 1,876 (0.254%)
+  WESTERN AVE AND CHICAGO AVE (5182) : 1,867 (0.253%)
+  PULASKI RD AND ARCHER AVE (5015) : 1,862 (0.252%)
+  PULASKI RD AND DIVERSEY AVE (5083) : 1,838 (0.249%)
+  KEDZIE AVE AND 55TH ST (5078) : 1,826 (0.247%)
+  CICERO AVE AND FULLERTON AVE (5021) : 1,790 (0.242%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 1,787 (0.242%)
+  SHERIDAN RD AND FOSTER AVE (5113) : 1,775 (0.240%)
+  CENTRAL AVE AND ADDISON ST (5156) : 1,713 (0.232%)
+  CALIFORNIA AVE AND DEVON AVE (5127) : 1,651 (0.223%)
+  CLARK ST AND RIDGE AVE (5043) : 1,620 (0.219%)
+  CICERO AVE AND ARMITAGE AVE (5184) : 1,552 (0.210%)
+  LARAMIE AVE AND FULLERTON AVE (5137) : 1,527 (0.207%)
+  CENTRAL AVE AND BELMONT AVE (5149) : 1,493 (0.202%)
+  AUSTIN AVE AND IRVING PARK RD (5116) : 1,486 (0.201%)
+  KEDZIE AVE AND 79TH ST (5219) : 1,320 (0.179%)
+  WESTERN AVE AND DEVON AVE (5025) : 1,163 (0.157%)
+  CENTRAL AVE AND DIVERSEY AVE (5153) : 1,104 (0.149%)
+  CICERO AVE AND PETERSON AVE (5054) : 1,055 (0.143%)
+  OSCEOLA AVE AND TOUHY AVE (5119) : 763 (0.103%)
+Total Red Light Violations in 2023 : 739,263
+
+Number of Speed Violations at Each Intersection for 2023
+  CICERO AVE AND LAWRENCE AVE (5071) : 138,752 (6.062%)
+  CALIFORNIA AVE AND IRVING PARK RD (5037) : 102,383 (4.473%)
+  COTTAGE GROVE AVE AND 55TH ST (5007) : 94,805 (4.142%)
+  PULASKI RD AND FOSTER AVE (5001) : 91,972 (4.018%)
+  CLARK ST AND CHICAGO AVE (5091) : 81,832 (3.575%)
+  HALSTED ST AND 127TH ST (5022) : 74,001 (3.233%)
+  FOREST PRESERVE DR AND ADDISON ST (5082) : 58,129 (2.540%)
+  STONY ISLAND AVE AND 83RD ST (5098) : 56,028 (2.448%)
+  OGDEN AVE AND TAYLOR ST (5010) : 54,463 (2.379%)
+  RACINE AVE AND GARFIELD BLVD (5056) : 54,059 (2.362%)
+  INDIANAPOLIS AVE AND 103RD ST (5057) : 51,953 (2.270%)
+  WESTERN AVE AND 55TH ST (5032) : 45,521 (1.989%)
+  CALIFORNIA AVE AND FULLERTON AVE (5088) : 44,979 (1.965%)
+  PULASKI RD AND NORTH AVE (5075) : 44,271 (1.934%)
+  SHERIDAN RD AND IRVING PARK RD (5044) : 43,867 (1.916%)
+  KEDZIE AVE AND 71ST ST (5008) : 43,726 (1.910%)
+  HUMBOLDT DR AND NORTH AVE (5005) : 42,755 (1.868%)
+  WESTERN AVE AND ADDISON ST (5014) : 41,959 (1.833%)
+  ASHLAND AVE AND 83RD ST (5079) : 38,398 (1.678%)
+  CALIFORNIA AVE AND ROOSEVELT RD (5009) : 38,331 (1.675%)
+  HARLEM AVE AND TOUHY AVE (5094) : 37,230 (1.626%)
+  OGDEN AVE AND WASHINGTON BLVD (5035) : 35,651 (1.558%)
+  LINCOLN AVE AND PETERSON AVE (5012) : 32,141 (1.404%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 31,415 (1.372%)
+  SOUTH CHICAGO AVE AND 71ST ST (5085) : 30,591 (1.336%)
+  WESTERN AVE AND DEVON AVE (5025) : 29,085 (1.271%)
+  MICHIGAN AVE AND 63RD ST (5070) : 27,016 (1.180%)
+  PULASKI RD AND ARCHER AVE (5015) : 26,153 (1.143%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 25,948 (1.134%)
+  WESTERN AVE AND IRVING PARK RD (5100) : 24,517 (1.071%)
+  CENTRAL AVE AND JACKSON BLVD (5028) : 23,918 (1.045%)
+  CICERO AVE AND PETERSON AVE (5054) : 23,696 (1.035%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 22,741 (0.993%)
+  MILWAUKEE AVE AND HIGGINS AVE (5048) : 21,644 (0.946%)
+  AUSTIN AVE AND FOSTER AVE (5093) : 21,207 (0.926%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 21,125 (0.923%)
+  EWING AVE AND 96TH ST (5066) : 20,456 (0.894%)
+  MICHIGAN AVE AND 95TH ST (5017) : 20,259 (0.885%)
+  STATE ST AND HARRISON ST (5016) : 19,669 (0.859%)
+  EWING AVE AND 95TH ST (5065) : 19,417 (0.848%)
+  CENTRAL PARK AVE AND MADISON ST (5004) : 18,543 (0.810%)
+  WESTERN AVE AND DIVISION ST (5061) : 18,338 (0.801%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 18,109 (0.791%)
+  KEDZIE AVE AND AUGUSTA BLVD (5006) : 18,094 (0.790%)
+  JEFFERY BLVD AND 75TH ST (5047) : 17,686 (0.773%)
+  PULASKI RD AND CHICAGO AVE (5051) : 17,202 (0.752%)
+  CENTRAL PARK AVE AND JACKSON BLVD (5003) : 17,031 (0.744%)
+  MILWAUKEE AVE AND DIVISION ST (5086) : 16,470 (0.720%)
+  CLARK ST AND LINCOLN AVE (5089) : 16,429 (0.718%)
+  CLARK ST AND RIDGE AVE (5043) : 16,256 (0.710%)
+  WESTERN AVE AND CERMAK RD (5052) : 15,474 (0.676%)
+  WESTERN BLVD AND 51ST ST (5081) : 15,210 (0.664%)
+  KEDZIE AVE AND FOSTER AVE (5013) : 15,045 (0.657%)
+  WESTERN AVE AND 79TH ST (5031) : 14,670 (0.641%)
+  CICERO AVE AND MARQUETTE RD (5095) : 14,482 (0.633%)
+  SACRAMENTO BLVD AND JACKSON BLVD (5058) : 12,697 (0.555%)
+  PULASKI RD AND 79TH ST (5033) : 12,452 (0.544%)
+  KEDZIE AVE AND JACKSON BLVD (5059) : 12,290 (0.537%)
+  KEDZIE BLVD AND FULLERTON AVE (5099) : 12,206 (0.533%)
+  WESTERN AVE AND 103RD ST (5073) : 12,012 (0.525%)
+  CLYBOURN AVE AND FULLERTON AVE (5041) : 11,471 (0.501%)
+  MILWAUKEE AVE AND BELMONT AVE (5040) : 11,097 (0.485%)
+  VINCENNES AVE AND 75TH ST (5030) : 10,496 (0.459%)
+  ASHLAND AVE AND NORTH AVE (5053) : 10,285 (0.449%)
+  WESTERN BLVD AND PERSHING RD (5002) : 10,196 (0.445%)
+  PULASKI RD AND 55TH ST (5029) : 10,125 (0.442%)
+  RACINE AVE AND 76TH ST (5087) : 9,843 (0.430%)
+  CICERO AVE AND FULLERTON AVE (5021) : 9,799 (0.428%)
+  VINCENNES AVE AND 111TH ST (5011) : 9,722 (0.425%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 9,692 (0.423%)
+  ASHLAND AVE AND LINCOLN AVE (5080) : 8,645 (0.378%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 7,897 (0.345%)
+  NORTHWEST HWY AND BRYN MAWR AVE (5076) : 7,853 (0.343%)
+  MARTIN LUTHER KING DR AND 63RD ST (5072) : 7,546 (0.330%)
+  CICERO AVE AND BELMONT AVE (5039) : 7,425 (0.324%)
+  HALSTED ST AND 31ST ST (5055) : 7,064 (0.309%)
+  PULASKI RD AND 111TH ST (5023) : 6,971 (0.305%)
+  MILWAUKEE AVE AND ADDISON ST (5092) : 6,210 (0.271%)
+  CENTRAL AVE AND HARRISON ST (5062) : 6,095 (0.266%)
+  JEFFERY BLVD AND 87TH ST (5069) : 5,931 (0.259%)
+  MILWAUKEE AVE AND LAWRENCE AVE (5049) : 5,314 (0.232%)
+  HALSTED ST AND 43RD ST (5101) : 4,496 (0.196%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 4,169 (0.182%)
+  PULASKI RD AND 47TH ST (5084) : 4,099 (0.179%)
+  KEDZIE AVE AND 16TH ST (5096) : 3,687 (0.161%)
+  BROADWAY AND MONTROSE AVE (5045) : 3,475 (0.152%)
+  VINCENNES AVE AND 76TH ST (5064) : 2,849 (0.124%)
+  OAK PARK AVE AND ADDISON ST (5090) : 2,685 (0.117%)
+  NARRAGANSETT AVE AND BELMONT AVE (5050) : 2,578 (0.113%)
+  LINCOLN AVE AND MONTROSE AVE (5027) : 2,349 (0.103%)
+  CENTRAL AVE AND GRAND AVE (5020) : 1,976 (0.086%)
+  KEDZIE AVE AND 55TH ST (5078) : 1,907 (0.083%)
+  STATE ST AND CHICAGO AVE (5063) : 1,885 (0.082%)
+  ASHLAND AVE AND ARCHER AVE (5068) : 1,722 (0.075%)
+  PULASKI RD AND DIVERSEY AVE (5083) : 1,676 (0.073%)
+  WESTERN AVE AND 51ST ST (5046) : 1,343 (0.059%)
+  HALSTED ST AND 35TH ST (5097) : 588 (0.026%)
+  ASHLAND AVE AND CERMAK RD (5067) : 539 (0.024%)
+  NAGLE AVE AND NORTHWEST HWY (5074) : 450 (0.020%)
+  CALIFORNIA AVE AND MONTROSE AVE (5036) : 72 (0.003%)
+Total Speed Violations in 2023 : 2,288,981
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> Error, unknown command, try again...
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: Enter a year: Monthly Violations for Camera 9009 in 2014
+07/2014 : 1,698
+08/2014 : 1,656
+09/2014 : 1,534
+10/2014 : 1,566
+11/2014 : 1,633
+12/2014 : 1,441
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: No cameras matching that ID were found in the database.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+Red Light Cameras:
+   2251 : 4200 S CICERO AVENUE
+   2252 : 4200 S CICERO AVENUE
+
+No speed cameras found at that intersection.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the year that you would like to analyze: 
+Number of Red Light Violations at Each Intersection for 2021
+  LAKE SHORE DR AND BELMONT AVE (5135) : 27,451 (4.056%)
+  CICERO AVE AND I55 (5203) : 24,217 (3.578%)
+  LAFAYETTE AVE AND 87TH ST (5223) : 24,161 (3.570%)
+  WENTWORTH AVE AND GARFIELD BLVD (5204) : 20,780 (3.070%)
+  STATE ST AND 75TH ST (5233) : 20,112 (2.972%)
+  STATE ST AND 79TH ST (5236) : 15,717 (2.322%)
+  HALSTED ST AND 99TH ST (5218) : 15,402 (2.276%)
+  STONEY ISLAND AVE AND 76TH ST (5234) : 14,645 (2.164%)
+  UPPER WACKER DR AND LAKE ST (5249) : 12,089 (1.786%)
+  STONY ISLAND AVE/CORNELL DR AND 67TH ST (5243) : 11,918 (1.761%)
+  WESTERN AVE AND VAN BUREN ST (5189) : 11,850 (1.751%)
+  SHERIDAN RD AND HOLLYWOOD AVE (5128) : 10,983 (1.623%)
+  KOSTNER AVE AND NORTH AVE (5185) : 10,035 (1.483%)
+  MARTIN LUTHER KING DR AND 31ST ST (5195) : 9,460 (1.398%)
+  KEDZIE AVE AND BELMONT AVE (5131) : 8,973 (1.326%)
+  STATE ST AND 63RD ST (5242) : 8,776 (1.297%)
+  VINCENNES AVE AND 87TH ST (5216) : 8,274 (1.223%)
+  CALIFORNIA AVE AND DIVERSEY AVE (5143) : 8,266 (1.221%)
+  HALSTED ST AND ROOSEVELT RD (5202) : 7,725 (1.141%)
+  CICERO AVE AND ARCHER AVE (5192) : 7,250 (1.071%)
+  CICERO AVE AND WASHINGTON BLVD (5177) : 6,786 (1.003%)
+  BROADWAY AND DEVON AVE (5112) : 6,765 (1.000%)
+  CANAL ST AND ROOSEVELT RD (5207) : 6,583 (0.973%)
+  ASHLAND AVE AND 95TH ST (5222) : 6,534 (0.965%)
+  HAMLIN AVE AND MADISON ST (5178) : 6,490 (0.959%)
+  DAMEN AVE AND FULLERTON AVE (5154) : 6,213 (0.918%)
+  HALSTED ST AND 111TH ST (5217) : 6,170 (0.912%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 6,026 (0.890%)
+  ASHLAND AVE AND CORTLAND ST (5160) : 5,949 (0.879%)
+  MICHIGAN AVE AND JACKSON BLVD (5248) : 5,881 (0.869%)
+  HALSTED ST AND 119TH ST (5215) : 5,542 (0.819%)
+  CENTRAL AVE AND LAKE ST (5162) : 5,354 (0.791%)
+  LARAMIE AVE AND MADISON ST (5188) : 5,258 (0.777%)
+  KOSTNER AVE AND OGDEN AVE (5201) : 5,163 (0.763%)
+  ASHLAND AVE AND 87TH ST (5220) : 5,091 (0.752%)
+  WESTERN AVE AND MARQUETTE RD (5238) : 5,047 (0.746%)
+  KOSTNER AVE AND ROOSEVELT RD (5208) : 5,036 (0.744%)
+  SACRAMENTO BLVD AND CHICAGO AVE (5169) : 4,998 (0.739%)
+  ASHLAND AVE AND MADISON ST (5179) : 4,946 (0.731%)
+  HALSTED ST AND 79TH ST (5226) : 4,790 (0.708%)
+  CICERO AVE AND NORTH AVE (5187) : 4,790 (0.708%)
+  CICERO AVE AND HARRISON ST (5186) : 4,667 (0.690%)
+  STONY ISLAND AVE AND 79TH ST (5221) : 4,649 (0.687%)
+  CICERO AVE AND LAWRENCE AVE (5071) : 4,610 (0.681%)
+  KEDZIE AVE AND ARMITAGE AVE (5171) : 4,580 (0.677%)
+  CENTRAL AVE AND CHICAGO AVE (5183) : 4,467 (0.660%)
+  ASHLAND AVE AND 71ST ST (5214) : 4,452 (0.658%)
+  WESTERN AVE AND FULLERTON AVE (5155) : 4,401 (0.650%)
+  DAMEN AVE AND DIVISION ST (5161) : 4,251 (0.628%)
+  MICHIGAN AVE AND ONTARIO ST (5251) : 4,169 (0.616%)
+  HALSTED ST AND NORTH AVE (5164) : 4,145 (0.612%)
+  HALSTED ST AND DIVISION ST (5159) : 4,140 (0.612%)
+  CLARK ST AND CHICAGO AVE (5091) : 4,121 (0.609%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 4,087 (0.604%)
+  HAMLIN AVE AND LAKE ST (5176) : 4,007 (0.592%)
+  DAMEN AVE AND 63RD ST (5241) : 3,923 (0.580%)
+  WESTERN AVE AND MADISON ST (5181) : 3,824 (0.565%)
+  CICERO AVE AND ADDISON ST (5150) : 3,820 (0.564%)
+  CICERO AVE AND CHICAGO AVE (5166) : 3,782 (0.559%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 3,779 (0.558%)
+  CALIFORNIA AVE AND IRVING PARK RD (5037) : 3,723 (0.550%)
+  ASHLAND AVE AND DIVISION ST (5167) : 3,718 (0.549%)
+  WESTERN AVE AND PETERSON AVE (5105) : 3,692 (0.546%)
+  NAGLE AVE AND FOSTER AVE (5106) : 3,651 (0.539%)
+  KILPATRICK AVE AND IRVING PARK RD (5245) : 3,612 (0.534%)
+  PULASKI RD AND CERMAK RD (5209) : 3,612 (0.534%)
+  ASHLAND AVE AND LAWRENCE AVE (5114) : 3,390 (0.501%)
+  SACRAMENTO BLVD AND LAKE ST (5170) : 3,358 (0.496%)
+  HALSTED ST AND MADISON ST (5175) : 3,257 (0.481%)
+  PULASKI RD AND DIVISION ST (5168) : 3,246 (0.480%)
+  DAMEN AVE AND DIVERSEY PKWY (5136) : 3,244 (0.479%)
+  PULASKI RD AND IRVING PARK RD (5146) : 3,224 (0.476%)
+  CLARK ST AND IRVING PARK RD (5110) : 3,207 (0.474%)
+  ELSTON AVE AND ADDISON ST (5134) : 3,176 (0.469%)
+  BROADWAY AND FOSTER AVE (5111) : 3,149 (0.465%)
+  PULASKI RD AND CHICAGO AVE (5051) : 3,097 (0.458%)
+  HOMAN/KIMBALL AVE AND NORTH AVE (5165) : 3,092 (0.457%)
+  PULASKI RD AND FOSTER AVE (5001) : 3,011 (0.445%)
+  WESTERN AVE AND CERMAK RD (5052) : 2,973 (0.439%)
+  KEDZIE AVE AND 71ST ST (5008) : 2,848 (0.421%)
+  ELSTON AVE AND LAWRENCE AVE (5123) : 2,824 (0.417%)
+  PULASKI RD AND 63RD ST (5210) : 2,796 (0.413%)
+  JEFFERY BLVD AND 95TH ST (5225) : 2,758 (0.408%)
+  HALSTED ST AND 95TH ST (5229) : 2,748 (0.406%)
+  HALSTED ST AND FULLERTON PKWY (5158) : 2,720 (0.402%)
+  WESTERN AVE AND 35TH ST (5193) : 2,712 (0.401%)
+  ELSTON AVE AND IRVING PARK RD (5142) : 2,668 (0.394%)
+  LARAMIE AVE AND IRVING PARK RD (5145) : 2,665 (0.394%)
+  MILWAUKEE AVE AND DEVON AVE (5122) : 2,604 (0.385%)
+  CICERO AVE AND 47TH ST (5200) : 2,580 (0.381%)
+  PULASKI RD AND FULLERTON AVE (5140) : 2,565 (0.379%)
+  WESTERN AVE AND 63RD ST (5212) : 2,533 (0.374%)
+  PULASKI RD AND ARMITAGE AVE (5172) : 2,531 (0.374%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 2,485 (0.367%)
+  WESTERN AVE AND DIVERSEY AVE (5138) : 2,450 (0.362%)
+  LASALLE DR AND KINZIE ST (5180) : 2,444 (0.361%)
+  WESTERN AVE AND 79TH ST (5031) : 2,440 (0.361%)
+  PULASKI RD AND 55TH ST (5029) : 2,363 (0.349%)
+  WESTERN AVE AND 55TH ST (5032) : 2,362 (0.349%)
+  WESTERN AVE AND ADDISON ST (5014) : 2,343 (0.346%)
+  CICERO AVE AND DIVERSEY AVE (5157) : 2,327 (0.344%)
+  KEDZIE AVE AND 26TH ST (5213) : 2,311 (0.341%)
+  HARLEM AVE AND BELMONT AVE (5133) : 2,269 (0.335%)
+  KEDZIE AVE AND 47TH ST (5194) : 2,258 (0.334%)
+  PULASKI RD AND 79TH ST (5033) : 2,135 (0.315%)
+  HARLEM AVE AND ADDISON ST (5148) : 2,110 (0.312%)
+  WESTERN AVE AND TOUHY AVE (5120) : 2,054 (0.303%)
+  KIMBALL AVE AND DIVERSEY AVE (5147) : 2,041 (0.302%)
+  WESTERN AVE AND 47TH ST (5197) : 2,027 (0.300%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 1,996 (0.295%)
+  CENTRAL AVE AND MILWAUKEE AVE (5247) : 1,969 (0.291%)
+  ASHLAND AVE AND IRVING PARK RD (5115) : 1,946 (0.288%)
+  CICERO AVE AND ARMITAGE AVE (5184) : 1,898 (0.280%)
+  WESTERN AVE AND NORTH AVE (5173) : 1,898 (0.280%)
+  CICERO AVE AND FULLERTON AVE (5021) : 1,892 (0.280%)
+  KEDZIE AVE AND 31ST ST (5196) : 1,882 (0.278%)
+  DAMEN AVE AND ELSTON AVE (5250) : 1,873 (0.277%)
+  LARAMIE AVE AND FULLERTON AVE (5137) : 1,866 (0.276%)
+  KEDZIE AVE AND 63RD ST (5211) : 1,858 (0.275%)
+  PULASKI RD AND BELMONT AVE (5132) : 1,849 (0.273%)
+  KEDZIE AVE AND 79TH ST (5219) : 1,826 (0.270%)
+  CLARK ST AND RIDGE AVE (5043) : 1,809 (0.267%)
+  PULASKI RD AND ARCHER AVE (5015) : 1,792 (0.265%)
+  NORTHWEST HWY AND FOSTER AVE (5246) : 1,777 (0.263%)
+  PULASKI RD AND NORTH AVE (5075) : 1,743 (0.258%)
+  KEDZIE AVE AND 55TH ST (5078) : 1,709 (0.253%)
+  WESTERN AVE AND LAWRENCE AVE (5118) : 1,708 (0.252%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 1,705 (0.252%)
+  SHERIDAN RD AND FOSTER AVE (5113) : 1,663 (0.246%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 1,651 (0.244%)
+  WESTERN AVE AND FOSTER AVE (5108) : 1,631 (0.241%)
+  CALIFORNIA AVE AND DEVON AVE (5127) : 1,589 (0.235%)
+  WESTERN AVE AND CHICAGO AVE (5182) : 1,585 (0.234%)
+  CENTRAL AVE AND ADDISON ST (5156) : 1,569 (0.232%)
+  COTTAGE GROVE AVE AND 71ST ST (5228) : 1,511 (0.223%)
+  CICERO AVE AND PETERSON AVE (5054) : 1,471 (0.217%)
+  AUSTIN AVE AND ADDISON ST (5141) : 1,428 (0.211%)
+  AUSTIN AVE AND DIVERSEY AVE (5139) : 1,392 (0.206%)
+  PULASKI RD AND DIVERSEY AVE (5083) : 1,372 (0.203%)
+  AUSTIN AVE AND IRVING PARK RD (5116) : 1,247 (0.184%)
+  CLARK ST AND FULLERTON AVE (5152) : 1,216 (0.180%)
+  PULASKI AVE AND LAWRENCE AVE (5117) : 1,202 (0.178%)
+  CENTRAL AVE AND BELMONT AVE (5149) : 1,130 (0.167%)
+  CALIFORNIA AVE AND PETERSON AVE (5126) : 993 (0.147%)
+  MILWAUKEE AVE AND MONTROSE AVE (5130) : 929 (0.137%)
+  OSCEOLA AVE AND TOUHY AVE (5119) : 898 (0.133%)
+  CENTRAL AVE AND DIVERSEY AVE (5153) : 865 (0.128%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 850 (0.126%)
+  WESTERN AVE AND DEVON AVE (5025) : 816 (0.121%)
+Total Red Light Violations in 2021 : 676,777
+
+Number of Speed Violations at Each Intersection for 2021
+  CICERO AVE AND LAWRENCE AVE (5071) : 214,755 (6.978%)
+  COTTAGE GROVE AVE AND 55TH ST (5007) : 170,979 (5.556%)
+  PULASKI RD AND FOSTER AVE (5001) : 121,271 (3.940%)
+  HALSTED ST AND 127TH ST (5022) : 102,746 (3.339%)
+  FOREST PRESERVE DR AND ADDISON ST (5082) : 91,471 (2.972%)
+  HUMBOLDT DR AND NORTH AVE (5005) : 84,349 (2.741%)
+  INDIANAPOLIS AVE AND 103RD ST (5057) : 77,510 (2.519%)
+  SHERIDAN RD AND IRVING PARK RD (5044) : 75,077 (2.439%)
+  PULASKI RD AND NORTH AVE (5075) : 74,145 (2.409%)
+  WESTERN BLVD AND PERSHING RD (5002) : 73,160 (2.377%)
+  ASHLAND AVE AND ARCHER AVE (5068) : 72,553 (2.357%)
+  KEDZIE AVE AND 71ST ST (5008) : 71,062 (2.309%)
+  CALIFORNIA AVE AND ROOSEVELT RD (5009) : 70,997 (2.307%)
+  RACINE AVE AND GARFIELD BLVD (5056) : 70,666 (2.296%)
+  ASHLAND AVE AND 83RD ST (5079) : 69,201 (2.249%)
+  OGDEN AVE AND TAYLOR ST (5010) : 67,848 (2.205%)
+  WESTERN AVE AND 55TH ST (5032) : 67,555 (2.195%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 61,949 (2.013%)
+  OGDEN AVE AND WASHINGTON BLVD (5035) : 58,852 (1.912%)
+  JEFFERY BLVD AND 75TH ST (5047) : 55,204 (1.794%)
+  CENTRAL AVE AND JACKSON BLVD (5028) : 54,263 (1.763%)
+  ASHLAND AVE AND LAKE ST (5034) : 49,680 (1.614%)
+  MICHIGAN AVE AND 63RD ST (5070) : 47,794 (1.553%)
+  WESTERN AVE AND DEVON AVE (5025) : 47,399 (1.540%)
+  WESTERN AVE AND ADDISON ST (5014) : 46,649 (1.516%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 46,301 (1.504%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 41,475 (1.348%)
+  SOUTH CHICAGO AVE AND 71ST ST (5085) : 41,309 (1.342%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 37,386 (1.215%)
+  LINCOLN AVE AND PETERSON AVE (5012) : 37,200 (1.209%)
+  MILWAUKEE AVE AND HIGGINS AVE (5048) : 32,372 (1.052%)
+  EWING AVE AND 96TH ST (5066) : 30,860 (1.003%)
+  CICERO AVE AND PETERSON AVE (5054) : 29,790 (0.968%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 28,665 (0.931%)
+  KEDZIE AVE AND AUGUSTA BLVD (5006) : 28,651 (0.931%)
+  MICHIGAN AVE AND 95TH ST (5017) : 27,807 (0.904%)
+  PULASKI RD AND ARCHER AVE (5015) : 27,449 (0.892%)
+  WESTERN AVE AND 103RD ST (5073) : 27,399 (0.890%)
+  KEDZIE AVE AND FOSTER AVE (5013) : 25,819 (0.839%)
+  WESTERN AVE AND CERMAK RD (5052) : 24,531 (0.797%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 24,234 (0.787%)
+  SACRAMENTO BLVD AND JACKSON BLVD (5058) : 23,666 (0.769%)
+  CENTRAL PARK AVE AND JACKSON BLVD (5003) : 23,239 (0.755%)
+  KEDZIE AVE AND JACKSON BLVD (5059) : 23,094 (0.750%)
+  CLARK ST AND RIDGE AVE (5043) : 22,977 (0.747%)
+  WESTERN AVE AND 79TH ST (5031) : 22,976 (0.747%)
+  EWING AVE AND 95TH ST (5065) : 22,854 (0.743%)
+  CENTRAL PARK AVE AND MADISON ST (5004) : 22,555 (0.733%)
+  PULASKI RD AND CHICAGO AVE (5051) : 21,063 (0.684%)
+  WESTERN BLVD AND 51ST ST (5081) : 20,841 (0.677%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 20,691 (0.672%)
+  MILWAUKEE AVE AND BELMONT AVE (5040) : 17,078 (0.555%)
+  CLYBOURN AVE AND FULLERTON AVE (5041) : 16,792 (0.546%)
+  MILWAUKEE AVE AND DIVISION ST (5086) : 16,444 (0.534%)
+  STATE ST AND HARRISON ST (5016) : 16,083 (0.523%)
+  WESTERN AVE AND 51ST ST (5046) : 16,033 (0.521%)
+  ASHLAND AVE AND CERMAK RD (5067) : 15,155 (0.492%)
+  NORTHWEST HWY AND BRYN MAWR AVE (5076) : 14,421 (0.469%)
+  WESTERN AVE AND DIVISION ST (5061) : 14,040 (0.456%)
+  VINCENNES AVE AND 75TH ST (5030) : 14,005 (0.455%)
+  ASHLAND AVE AND LINCOLN AVE (5080) : 13,515 (0.439%)
+  PULASKI RD AND 55TH ST (5029) : 13,220 (0.430%)
+  MARTIN LUTHER KING DR AND 63RD ST (5072) : 12,421 (0.404%)
+  NAGLE AVE AND NORTHWEST HWY (5074) : 11,817 (0.384%)
+  ASHLAND AVE AND NORTH AVE (5053) : 11,477 (0.373%)
+  PULASKI RD AND 79TH ST (5033) : 10,940 (0.355%)
+  JEFFERY BLVD AND 87TH ST (5069) : 10,539 (0.342%)
+  VINCENNES AVE AND 111TH ST (5011) : 10,527 (0.342%)
+  CICERO AVE AND BELMONT AVE (5039) : 10,495 (0.341%)
+  CENTRAL AVE AND HARRISON ST (5062) : 10,472 (0.340%)
+  CICERO AVE AND FULLERTON AVE (5021) : 10,027 (0.326%)
+  MILWAUKEE AVE AND LAWRENCE AVE (5049) : 9,747 (0.317%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 9,429 (0.306%)
+  PULASKI RD AND 111TH ST (5023) : 9,056 (0.294%)
+  RACINE AVE AND 76TH ST (5087) : 8,955 (0.291%)
+  CENTRAL AVE AND GRAND AVE (5020) : 8,491 (0.276%)
+  HALSTED ST AND 31ST ST (5055) : 7,790 (0.253%)
+  BROADWAY AND MONTROSE AVE (5045) : 5,136 (0.167%)
+  PULASKI RD AND DIVERSEY AVE (5083) : 3,715 (0.121%)
+  VINCENNES AVE AND 76TH ST (5064) : 3,537 (0.115%)
+  PULASKI RD AND 47TH ST (5084) : 3,532 (0.115%)
+  LINCOLN AVE AND MONTROSE AVE (5027) : 3,325 (0.108%)
+  NARRAGANSETT AVE AND BELMONT AVE (5050) : 2,733 (0.089%)
+  STATE ST AND CHICAGO AVE (5063) : 2,305 (0.075%)
+  KEDZIE AVE AND 55TH ST (5078) : 2,006 (0.065%)
+  CALIFORNIA AVE AND MONTROSE AVE (5036) : 7 (0.000%)
+Total Speed Violations in 2021 : 3,077,604
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a street name: 
+List of Cameras Located on Street: Hollywood
+  Red Light Cameras:
+     1343 : 1000 W HOLLYWOOD AVE (41.9856498, -87.65533581)
+     1344 : 1000 W HOLLYWOOD AVE (41.9856498, -87.65533581)
+  Speed Cameras:
+
+Plot? (y/n) 
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Number of Red Light Cameras at Each Intersection
+  STONY ISLAND AVE AND 79TH ST (5221) : 4 (1.096%)
+  PULASKI RD AND NORTH AVE (5075) : 4 (1.096%)
+  KOSTNER AVE AND NORTH AVE (5185) : 3 (0.822%)
+  CALIFORNIA AVE AND DIVERSEY AVE (5143) : 3 (0.822%)
+  DAMEN AVE AND DIVERSEY PKWY (5136) : 3 (0.822%)
+  KEDZIE AVE AND BELMONT AVE (5131) : 3 (0.822%)
+  MICHIGAN AVE AND ONTARIO ST (5251) : 2 (0.548%)
+  UPPER WACKER DR AND LAKE ST (5249) : 2 (0.548%)
+  MICHIGAN AVE AND JACKSON BLVD (5248) : 2 (0.548%)
+  CENTRAL AVE AND MILWAUKEE AVE (5247) : 2 (0.548%)
+  NORTHWEST HWY AND FOSTER AVE (5246) : 2 (0.548%)
+  KILPATRICK AVE AND IRVING PARK RD (5245) : 2 (0.548%)
+  KIMBALL AVE/MCCORMICK BLVD AND LINCOLN AVE (5244) : 2 (0.548%)
+  STONY ISLAND AVE/CORNELL DR AND 67TH ST (5243) : 2 (0.548%)
+  STATE ST AND 63RD ST (5242) : 2 (0.548%)
+  DAMEN AVE AND 63RD ST (5241) : 2 (0.548%)
+  HALSTED ST AND 63RD ST (5240) : 2 (0.548%)
+  ASHLAND AVE AND 63RD ST (5239) : 2 (0.548%)
+  WESTERN AVE AND MARQUETTE RD (5238) : 2 (0.548%)
+  JEFFERY BLVD AND 79TH ST (5237) : 2 (0.548%)
+  STATE ST AND 79TH ST (5236) : 2 (0.548%)
+  HALSTED ST AND 83RD ST (5235) : 2 (0.548%)
+  STONEY ISLAND AVE AND 76TH ST (5234) : 2 (0.548%)
+  STATE ST AND 75TH ST (5233) : 2 (0.548%)
+  WESTERN AVE AND 71ST ST (5232) : 2 (0.548%)
+  COTTAGE GROVE AVE AND 95TH ST (5231) : 2 (0.548%)
+  HALSTED ST AND 103RD ST (5230) : 2 (0.548%)
+  HALSTED ST AND 95TH ST (5229) : 2 (0.548%)
+  HALSTED ST AND 115TH ST (5227) : 2 (0.548%)
+  HALSTED ST AND 79TH ST (5226) : 2 (0.548%)
+  JEFFERY BLVD AND 95TH ST (5225) : 2 (0.548%)
+  STONY ISLAND AVE AND 95TH ST (5224) : 2 (0.548%)
+  LAFAYETTE AVE AND 87TH ST (5223) : 2 (0.548%)
+  ASHLAND AVE AND 95TH ST (5222) : 2 (0.548%)
+  ASHLAND AVE AND 87TH ST (5220) : 2 (0.548%)
+  KEDZIE AVE AND 79TH ST (5219) : 2 (0.548%)
+  HALSTED ST AND 99TH ST (5218) : 2 (0.548%)
+  HALSTED ST AND 111TH ST (5217) : 2 (0.548%)
+  VINCENNES AVE AND 87TH ST (5216) : 2 (0.548%)
+  HALSTED ST AND 119TH ST (5215) : 2 (0.548%)
+  ASHLAND AVE AND 71ST ST (5214) : 2 (0.548%)
+  KEDZIE AVE AND 26TH ST (5213) : 2 (0.548%)
+  WESTERN AVE AND 63RD ST (5212) : 2 (0.548%)
+  KEDZIE AVE AND 63RD ST (5211) : 2 (0.548%)
+  PULASKI RD AND 63RD ST (5210) : 2 (0.548%)
+  PULASKI RD AND CERMAK RD (5209) : 2 (0.548%)
+  KOSTNER AVE AND ROOSEVELT RD (5208) : 2 (0.548%)
+  CANAL ST AND ROOSEVELT RD (5207) : 2 (0.548%)
+  DAMEN AVE AND BLUE ISLAND AVE (5206) : 2 (0.548%)
+  ASHLAND AVE AND GARFIELD BLVD (5205) : 2 (0.548%)
+  WENTWORTH AVE AND GARFIELD BLVD (5204) : 2 (0.548%)
+  CICERO AVE AND I55 (5203) : 2 (0.548%)
+  HALSTED ST AND ROOSEVELT RD (5202) : 2 (0.548%)
+  KOSTNER AVE AND OGDEN AVE (5201) : 2 (0.548%)
+  CICERO AVE AND 47TH ST (5200) : 2 (0.548%)
+  ASHLAND AVE AND 47TH ST (5199) : 2 (0.548%)
+  CORNELL DR AND 57TH ST (5198) : 2 (0.548%)
+  WESTERN AVE AND 47TH ST (5197) : 2 (0.548%)
+  KEDZIE AVE AND 31ST ST (5196) : 2 (0.548%)
+  MARTIN LUTHER KING DR AND 31ST ST (5195) : 2 (0.548%)
+  KEDZIE AVE AND 47TH ST (5194) : 2 (0.548%)
+  WESTERN AVE AND 35TH ST (5193) : 2 (0.548%)
+  CICERO AVE AND ARCHER AVE (5192) : 2 (0.548%)
+  NARRAGANSETT AVE AND ARCHER AVE/55TH ST (5191) : 2 (0.548%)
+  CALIFORNIA AVE AND 31ST ST (5190) : 2 (0.548%)
+  WESTERN AVE AND VAN BUREN ST (5189) : 2 (0.548%)
+  LARAMIE AVE AND MADISON ST (5188) : 2 (0.548%)
+  CICERO AVE AND NORTH AVE (5187) : 2 (0.548%)
+  CICERO AVE AND HARRISON ST (5186) : 2 (0.548%)
+  CICERO AVE AND ARMITAGE AVE (5184) : 2 (0.548%)
+  CENTRAL AVE AND CHICAGO AVE (5183) : 2 (0.548%)
+  WESTERN AVE AND CHICAGO AVE (5182) : 2 (0.548%)
+  WESTERN AVE AND MADISON ST (5181) : 2 (0.548%)
+  LASALLE DR AND KINZIE ST (5180) : 2 (0.548%)
+  ASHLAND AVE AND MADISON ST (5179) : 2 (0.548%)
+  HAMLIN AVE AND MADISON ST (5178) : 2 (0.548%)
+  CICERO AVE AND WASHINGTON BLVD (5177) : 2 (0.548%)
+  HAMLIN AVE AND LAKE ST (5176) : 2 (0.548%)
+  HALSTED ST AND MADISON ST (5175) : 2 (0.548%)
+  WESTERN AVE AND ARMITAGE AVE (5174) : 2 (0.548%)
+  WESTERN AVE AND NORTH AVE (5173) : 2 (0.548%)
+  PULASKI RD AND ARMITAGE AVE (5172) : 2 (0.548%)
+  KEDZIE AVE AND ARMITAGE AVE (5171) : 2 (0.548%)
+  SACRAMENTO BLVD AND LAKE ST (5170) : 2 (0.548%)
+  SACRAMENTO BLVD AND CHICAGO AVE (5169) : 2 (0.548%)
+  PULASKI RD AND DIVISION ST (5168) : 2 (0.548%)
+  ASHLAND AVE AND DIVISION ST (5167) : 2 (0.548%)
+  CICERO AVE AND CHICAGO AVE (5166) : 2 (0.548%)
+  HOMAN/KIMBALL AVE AND NORTH AVE (5165) : 2 (0.548%)
+  HALSTED ST AND NORTH AVE (5164) : 2 (0.548%)
+  CENTRAL AVE AND MADISON ST (5163) : 2 (0.548%)
+  CENTRAL AVE AND LAKE ST (5162) : 2 (0.548%)
+  DAMEN AVE AND DIVISION ST (5161) : 2 (0.548%)
+  ASHLAND AVE AND CORTLAND ST (5160) : 2 (0.548%)
+  HALSTED ST AND DIVISION ST (5159) : 2 (0.548%)
+  HALSTED ST AND FULLERTON PKWY (5158) : 2 (0.548%)
+  CICERO AVE AND DIVERSEY AVE (5157) : 2 (0.548%)
+  CENTRAL AVE AND ADDISON ST (5156) : 2 (0.548%)
+  WESTERN AVE AND FULLERTON AVE (5155) : 2 (0.548%)
+  DAMEN AVE AND FULLERTON AVE (5154) : 2 (0.548%)
+  CENTRAL AVE AND DIVERSEY AVE (5153) : 2 (0.548%)
+  CLARK ST AND FULLERTON AVE (5152) : 2 (0.548%)
+  ASHLAND AVE AND DIVERSEY PKWY (5151) : 2 (0.548%)
+  CICERO AVE AND ADDISON ST (5150) : 2 (0.548%)
+  CENTRAL AVE AND BELMONT AVE (5149) : 2 (0.548%)
+  HARLEM AVE AND ADDISON ST (5148) : 2 (0.548%)
+  KIMBALL AVE AND DIVERSEY AVE (5147) : 2 (0.548%)
+  PULASKI RD AND IRVING PARK RD (5146) : 2 (0.548%)
+  LARAMIE AVE AND IRVING PARK RD (5145) : 2 (0.548%)
+  OAK PARK AVE AND GRAND AVE (5144) : 2 (0.548%)
+  ELSTON AVE AND IRVING PARK RD (5142) : 2 (0.548%)
+  AUSTIN AVE AND ADDISON ST (5141) : 2 (0.548%)
+  PULASKI RD AND FULLERTON AVE (5140) : 2 (0.548%)
+  AUSTIN AVE AND DIVERSEY AVE (5139) : 2 (0.548%)
+  WESTERN AVE AND DIVERSEY AVE (5138) : 2 (0.548%)
+  LAKE SHORE DR AND BELMONT AVE (5135) : 2 (0.548%)
+  ELSTON AVE AND ADDISON ST (5134) : 2 (0.548%)
+  HARLEM AVE AND BELMONT AVE (5133) : 2 (0.548%)
+  PULASKI RD AND BELMONT AVE (5132) : 2 (0.548%)
+  MILWAUKEE AVE AND MONTROSE AVE (5130) : 2 (0.548%)
+  KEDZIE AVE AND IRVING PARK RD (5129) : 2 (0.548%)
+  SHERIDAN RD AND HOLLYWOOD AVE (5128) : 2 (0.548%)
+  CALIFORNIA AVE AND DEVON AVE (5127) : 2 (0.548%)
+  CALIFORNIA AVE AND PETERSON AVE (5126) : 2 (0.548%)
+  WESTERN AVE AND PRATT BLVD (5125) : 2 (0.548%)
+  PULASKI RD AND MONTROSE AVE (5124) : 2 (0.548%)
+  ELSTON AVE AND LAWRENCE AVE (5123) : 2 (0.548%)
+  MILWAUKEE AVE AND DEVON AVE (5122) : 2 (0.548%)
+  PULASKI RD AND PETERSON AVE (5121) : 2 (0.548%)
+  WESTERN AVE AND TOUHY AVE (5120) : 2 (0.548%)
+  OSCEOLA AVE AND TOUHY AVE (5119) : 2 (0.548%)
+  WESTERN AVE AND LAWRENCE AVE (5118) : 2 (0.548%)
+  PULASKI AVE AND LAWRENCE AVE (5117) : 2 (0.548%)
+  AUSTIN AVE AND IRVING PARK RD (5116) : 2 (0.548%)
+  ASHLAND AVE AND IRVING PARK RD (5115) : 2 (0.548%)
+  ASHLAND AVE AND LAWRENCE AVE (5114) : 2 (0.548%)
+  SHERIDAN RD AND FOSTER AVE (5113) : 2 (0.548%)
+  BROADWAY AND DEVON AVE (5112) : 2 (0.548%)
+  BROADWAY AND FOSTER AVE (5111) : 2 (0.548%)
+  CLARK ST AND IRVING PARK RD (5110) : 2 (0.548%)
+  HARLEM AVE AND NORTHWEST HWY (5109) : 2 (0.548%)
+  WESTERN AVE AND FOSTER AVE (5108) : 2 (0.548%)
+  ELSTON AVE AND FOSTER AVE (5107) : 2 (0.548%)
+  NAGLE AVE AND FOSTER AVE (5106) : 2 (0.548%)
+  WESTERN AVE AND PETERSON AVE (5105) : 2 (0.548%)
+  STONY ISLAND AVE AND 83RD ST (5098) : 2 (0.548%)
+  CLARK ST AND CHICAGO AVE (5091) : 2 (0.548%)
+  PULASKI RD AND DIVERSEY AVE (5083) : 2 (0.548%)
+  WESTERN BLVD AND 51ST ST (5081) : 2 (0.548%)
+  KEDZIE AVE AND 55TH ST (5078) : 2 (0.548%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 2 (0.548%)
+  CICERO AVE AND LAWRENCE AVE (5071) : 2 (0.548%)
+  ASHLAND AVE AND ARCHER AVE (5068) : 2 (0.548%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 2 (0.548%)
+  CICERO AVE AND PETERSON AVE (5054) : 2 (0.548%)
+  WESTERN AVE AND CERMAK RD (5052) : 2 (0.548%)
+  PULASKI RD AND CHICAGO AVE (5051) : 2 (0.548%)
+  CLARK ST AND RIDGE AVE (5043) : 2 (0.548%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 2 (0.548%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 2 (0.548%)
+  CALIFORNIA AVE AND IRVING PARK RD (5037) : 2 (0.548%)
+  PULASKI RD AND 79TH ST (5033) : 2 (0.548%)
+  WESTERN AVE AND 55TH ST (5032) : 2 (0.548%)
+  WESTERN AVE AND 79TH ST (5031) : 2 (0.548%)
+  PULASKI RD AND 55TH ST (5029) : 2 (0.548%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 2 (0.548%)
+  WESTERN AVE AND DEVON AVE (5025) : 2 (0.548%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 2 (0.548%)
+  CICERO AVE AND FULLERTON AVE (5021) : 2 (0.548%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 2 (0.548%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 2 (0.548%)
+  PULASKI RD AND ARCHER AVE (5015) : 2 (0.548%)
+  WESTERN AVE AND ADDISON ST (5014) : 2 (0.548%)
+  VINCENNES AVE AND 111TH ST (5011) : 2 (0.548%)
+  KEDZIE AVE AND 71ST ST (5008) : 2 (0.548%)
+  WESTERN BLVD AND PERSHING RD (5002) : 2 (0.548%)
+  PULASKI RD AND FOSTER AVE (5001) : 2 (0.548%)
+  DAMEN AVE AND ELSTON AVE (5250) : 1 (0.274%)
+  COTTAGE GROVE AVE AND 71ST ST (5228) : 1 (0.274%)
+  LARAMIE AVE AND FULLERTON AVE (5137) : 1 (0.274%)
+
+Number of Speed Cameras at Each Intersection
+  PULASKI RD AND 55TH ST (5029) : 6 (3.261%)
+  PULASKI RD AND 79TH ST (5033) : 5 (2.717%)
+  WESTERN AVE AND CERMAK RD (5052) : 4 (2.174%)
+  NARRAGANSETT AVE AND BELMONT AVE (5050) : 4 (2.174%)
+  WESTERN AVE AND 79TH ST (5031) : 4 (2.174%)
+  SOUTH CHICAGO AVE AND 71ST ST (5085) : 3 (1.630%)
+  FOREST PRESERVE DR AND ADDISON ST (5082) : 3 (1.630%)
+  ASHLAND AVE AND 83RD ST (5079) : 3 (1.630%)
+  KEDZIE AVE AND 55TH ST (5078) : 3 (1.630%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 3 (1.630%)
+  PULASKI RD AND NORTH AVE (5075) : 3 (1.630%)
+  CICERO AVE AND LAWRENCE AVE (5071) : 3 (1.630%)
+  STATE ST AND CHICAGO AVE (5063) : 3 (1.630%)
+  WESTERN AVE AND DIVISION ST (5061) : 3 (1.630%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 3 (1.630%)
+  RACINE AVE AND GARFIELD BLVD (5056) : 3 (1.630%)
+  CICERO AVE AND PETERSON AVE (5054) : 3 (1.630%)
+  PULASKI RD AND CHICAGO AVE (5051) : 3 (1.630%)
+  WESTERN AVE AND 51ST ST (5046) : 3 (1.630%)
+  MILWAUKEE AVE AND BELMONT AVE (5040) : 3 (1.630%)
+  WESTERN AVE AND 55TH ST (5032) : 3 (1.630%)
+  PULASKI RD AND ARCHER AVE (5015) : 3 (1.630%)
+  WESTERN AVE AND ADDISON ST (5014) : 3 (1.630%)
+  KEDZIE AVE AND 71ST ST (5008) : 3 (1.630%)
+  MILWAUKEE AVE AND DIVISION ST (5086) : 2 (1.087%)
+  PULASKI RD AND 47TH ST (5084) : 2 (1.087%)
+  ASHLAND AVE AND LINCOLN AVE (5080) : 2 (1.087%)
+  WESTERN AVE AND 103RD ST (5073) : 2 (1.087%)
+  EWING AVE AND 95TH ST (5065) : 2 (1.087%)
+  VINCENNES AVE AND 76TH ST (5064) : 2 (1.087%)
+  ASHLAND AVE AND NORTH AVE (5053) : 2 (1.087%)
+  JEFFERY BLVD AND 75TH ST (5047) : 2 (1.087%)
+  BROADWAY AND MONTROSE AVE (5045) : 2 (1.087%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 2 (1.087%)
+  CALIFORNIA AVE AND IRVING PARK RD (5037) : 2 (1.087%)
+  ASHLAND AVE AND LAKE ST (5034) : 2 (1.087%)
+  CENTRAL AVE AND JACKSON BLVD (5028) : 2 (1.087%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 2 (1.087%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 2 (1.087%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 2 (1.087%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 2 (1.087%)
+  MICHIGAN AVE AND 95TH ST (5017) : 2 (1.087%)
+  STATE ST AND HARRISON ST (5016) : 2 (1.087%)
+  VINCENNES AVE AND 111TH ST (5011) : 2 (1.087%)
+  CALIFORNIA AVE AND ROOSEVELT RD (5009) : 2 (1.087%)
+  COTTAGE GROVE AVE AND 55TH ST (5007) : 2 (1.087%)
+  WESTERN BLVD AND PERSHING RD (5002) : 2 (1.087%)
+  PULASKI RD AND FOSTER AVE (5001) : 2 (1.087%)
+  CALIFORNIA AVE AND 103RD ST (5104) : 1 (0.543%)
+  LONGWOOD DR AND 99TH ST (5103) : 1 (0.543%)
+  WESTERN AVE AND 107TH PL (5102) : 1 (0.543%)
+  HALSTED ST AND 43RD ST (5101) : 1 (0.543%)
+  WESTERN AVE AND IRVING PARK RD (5100) : 1 (0.543%)
+  KEDZIE BLVD AND FULLERTON AVE (5099) : 1 (0.543%)
+  STONY ISLAND AVE AND 83RD ST (5098) : 1 (0.543%)
+  HALSTED ST AND 35TH ST (5097) : 1 (0.543%)
+  KEDZIE AVE AND 16TH ST (5096) : 1 (0.543%)
+  CICERO AVE AND MARQUETTE RD (5095) : 1 (0.543%)
+  HARLEM AVE AND TOUHY AVE (5094) : 1 (0.543%)
+  AUSTIN AVE AND FOSTER AVE (5093) : 1 (0.543%)
+  MILWAUKEE AVE AND ADDISON ST (5092) : 1 (0.543%)
+  CLARK ST AND CHICAGO AVE (5091) : 1 (0.543%)
+  OAK PARK AVE AND ADDISON ST (5090) : 1 (0.543%)
+  CLARK ST AND LINCOLN AVE (5089) : 1 (0.543%)
+  CALIFORNIA AVE AND FULLERTON AVE (5088) : 1 (0.543%)
+  RACINE AVE AND 76TH ST (5087) : 1 (0.543%)
+  PULASKI RD AND DIVERSEY AVE (5083) : 1 (0.543%)
+  WESTERN BLVD AND 51ST ST (5081) : 1 (0.543%)
+  NORTHWEST HWY AND BRYN MAWR AVE (5076) : 1 (0.543%)
+  NAGLE AVE AND NORTHWEST HWY (5074) : 1 (0.543%)
+  MARTIN LUTHER KING DR AND 63RD ST (5072) : 1 (0.543%)
+  MICHIGAN AVE AND 63RD ST (5070) : 1 (0.543%)
+  JEFFERY BLVD AND 87TH ST (5069) : 1 (0.543%)
+  ASHLAND AVE AND ARCHER AVE (5068) : 1 (0.543%)
+  ASHLAND AVE AND CERMAK RD (5067) : 1 (0.543%)
+  EWING AVE AND 96TH ST (5066) : 1 (0.543%)
+  CENTRAL AVE AND HARRISON ST (5062) : 1 (0.543%)
+  KEDZIE AVE AND JACKSON BLVD (5059) : 1 (0.543%)
+  SACRAMENTO BLVD AND JACKSON BLVD (5058) : 1 (0.543%)
+  INDIANAPOLIS AVE AND 103RD ST (5057) : 1 (0.543%)
+  HALSTED ST AND 31ST ST (5055) : 1 (0.543%)
+  MILWAUKEE AVE AND LAWRENCE AVE (5049) : 1 (0.543%)
+  MILWAUKEE AVE AND HIGGINS AVE (5048) : 1 (0.543%)
+  SHERIDAN RD AND IRVING PARK RD (5044) : 1 (0.543%)
+  CLARK ST AND RIDGE AVE (5043) : 1 (0.543%)
+  CLYBOURN AVE AND FULLERTON AVE (5041) : 1 (0.543%)
+  CICERO AVE AND BELMONT AVE (5039) : 1 (0.543%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 1 (0.543%)
+  CALIFORNIA AVE AND MONTROSE AVE (5036) : 1 (0.543%)
+  OGDEN AVE AND WASHINGTON BLVD (5035) : 1 (0.543%)
+  VINCENNES AVE AND 75TH ST (5030) : 1 (0.543%)
+  LINCOLN AVE AND MONTROSE AVE (5027) : 1 (0.543%)
+  WESTERN AVE AND DEVON AVE (5025) : 1 (0.543%)
+  PULASKI RD AND 111TH ST (5023) : 1 (0.543%)
+  HALSTED ST AND 127TH ST (5022) : 1 (0.543%)
+  CICERO AVE AND FULLERTON AVE (5021) : 1 (0.543%)
+  CENTRAL AVE AND GRAND AVE (5020) : 1 (0.543%)
+  KEDZIE AVE AND FOSTER AVE (5013) : 1 (0.543%)
+  LINCOLN AVE AND PETERSON AVE (5012) : 1 (0.543%)
+  OGDEN AVE AND TAYLOR ST (5010) : 1 (0.543%)
+  KEDZIE AVE AND AUGUSTA BLVD (5006) : 1 (0.543%)
+  HUMBOLDT DR AND NORTH AVE (5005) : 1 (0.543%)
+  CENTRAL PARK AVE AND MADISON ST (5004) : 1 (0.543%)
+  CENTRAL PARK AVE AND JACKSON BLVD (5003) : 1 (0.543%)
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the date that you would like to look at (format should be YYYY-MM-DD): Number of Red Light Violations: 1,811 (36.344%)
+Number of Speed Violations: 3,172 (63.656%)
+Total Number of Violations: 4,983
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: Enter a year: Monthly Violations for Camera 9013 in 2016
+01/2016 : 1,223
+02/2016 : 1,195
+03/2016 : 1,165
+04/2016 : 1,405
+05/2016 : 886
+06/2016 : 769
+07/2016 : 2,436
+08/2016 : 2,208
+09/2016 : 1,530
+10/2016 : 1,801
+11/2016 : 1,903
+12/2016 : 1,549
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: Yearly Violations for Camera 9117
+2014 : 1,058
+2015 : 1,013
+2016 : 3,070
+2017 : 3,450
+2018 : 2,309
+2019 : 1,337
+2020 : 2,195
+2021 : 7,790
+2022 : 9,528
+2023 : 7,064
+2024 : 4,922
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> Error, unknown command, try again...
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection (no wildcards allowed): 
+Red Light Cameras:
+   1662 : 2400 N DAMEN AVE
+   1663 : 2000 W FULLERTON AVE
+
+No speed cameras found at that intersection.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: No cameras matching that ID were found in the database.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> Error, unknown command, try again...
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: No cameras matching that ID were found in the database.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the date that you would like to look at (format should be YYYY-MM-DD): No violations on record for that date.
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a year: Red Light Violations:
+2019-01-01 1144
+2019-01-02 920
+2019-01-03 1103
+2019-01-04 1208
+2019-01-05 1390
+2019-12-27 1309
+2019-12-28 1306
+2019-12-29 1204
+2019-12-30 1151
+2019-12-31 1099
+Speed Violations:
+2019-01-01 2310
+2019-01-02 1680
+2019-01-03 2086
+2019-01-04 2160
+2019-01-05 2392
+2019-12-27 1892
+2019-12-28 2262
+2019-12-29 1874
+2019-12-30 1339
+2019-12-31 1667
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: Yearly Violations for Camera 1994
+2014 : 326
+2015 : 819
+2016 : 1,092
+2017 : 656
+2018 : 865
+2019 : 552
+2020 : 679
+2021 : 1,030
+2022 : 831
+2023 : 1,054
+2024 : 1,087
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a street name: There are no cameras located on that street.
+
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the name of the intersection to find (wildcards _ and % allowed): 5223 : LAFAYETTE AVE AND 87TH ST
+5135 : LAKE SHORE DR AND BELMONT AVE
+5137 : LARAMIE AVE AND FULLERTON AVE
+5145 : LARAMIE AVE AND IRVING PARK RD
+5188 : LARAMIE AVE AND MADISON ST
+5180 : LASALLE DR AND KINZIE ST
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: Yearly Violations for Camera 9040
+2014 : 3,566
+2015 : 5,212
+2016 : 4,586
+2017 : 4,383
+2018 : 4,437
+2019 : 3,308
+2020 : 4,891
+2021 : 11,542
+2022 : 13,510
+2023 : 1,539
+2024 : 8,098
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the year that you would like to analyze: 
+Number of Red Light Violations at Each Intersection for 2017
+  CICERO AVE AND I55 (5203) : 27,039 (5.138%)
+  LAKE SHORE DR AND BELMONT AVE (5135) : 19,851 (3.772%)
+  WESTERN AVE AND VAN BUREN ST (5189) : 14,190 (2.697%)
+  STONEY ISLAND AVE AND 76TH ST (5234) : 13,809 (2.624%)
+  STATE ST AND 79TH ST (5236) : 13,750 (2.613%)
+  LAFAYETTE AVE AND 87TH ST (5223) : 12,462 (2.368%)
+  CALIFORNIA AVE AND DIVERSEY AVE (5143) : 10,138 (1.927%)
+  CICERO AVE AND ARCHER AVE (5192) : 10,005 (1.901%)
+  HALSTED ST AND 99TH ST (5218) : 9,968 (1.894%)
+  WENTWORTH AVE AND GARFIELD BLVD (5204) : 9,776 (1.858%)
+  STATE ST AND 75TH ST (5233) : 9,304 (1.768%)
+  ASHLAND AVE AND CORTLAND ST (5160) : 9,135 (1.736%)
+  VINCENNES AVE AND 87TH ST (5216) : 7,577 (1.440%)
+  HALSTED ST AND ROOSEVELT RD (5202) : 6,791 (1.290%)
+  HAMLIN AVE AND MADISON ST (5178) : 6,209 (1.180%)
+  CANAL ST AND ROOSEVELT RD (5207) : 6,178 (1.174%)
+  STONY ISLAND AVE/CORNELL DR AND 67TH ST (5243) : 5,954 (1.131%)
+  STATE ST AND 63RD ST (5242) : 5,898 (1.121%)
+  KEDZIE AVE AND BELMONT AVE (5131) : 5,760 (1.095%)
+  LARAMIE AVE AND MADISON ST (5188) : 5,651 (1.074%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 5,622 (1.068%)
+  SHERIDAN RD AND HOLLYWOOD AVE (5128) : 5,617 (1.067%)
+  KOSTNER AVE AND OGDEN AVE (5201) : 5,047 (0.959%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 5,004 (0.951%)
+  CICERO AVE AND WASHINGTON BLVD (5177) : 4,876 (0.927%)
+  CLARK ST AND CHICAGO AVE (5091) : 4,740 (0.901%)
+  CICERO AVE AND LAWRENCE AVE (5071) : 4,635 (0.881%)
+  WESTERN AVE AND PETERSON AVE (5105) : 4,364 (0.829%)
+  BROADWAY AND DEVON AVE (5112) : 4,298 (0.817%)
+  MARTIN LUTHER KING DR AND 31ST ST (5195) : 4,287 (0.815%)
+  ASHLAND AVE AND 95TH ST (5222) : 4,149 (0.788%)
+  WESTERN AVE AND FULLERTON AVE (5155) : 4,121 (0.783%)
+  SACRAMENTO BLVD AND CHICAGO AVE (5169) : 4,119 (0.783%)
+  HALSTED ST AND 111TH ST (5217) : 4,009 (0.762%)
+  DAMEN AVE AND DIVISION ST (5161) : 3,979 (0.756%)
+  CALIFORNIA AVE AND IRVING PARK RD (5037) : 3,970 (0.754%)
+  DAMEN AVE AND DIVERSEY PKWY (5136) : 3,846 (0.731%)
+  HALSTED ST AND DIVISION ST (5159) : 3,802 (0.722%)
+  HALSTED ST AND 115TH ST (5227) : 3,789 (0.720%)
+  SACRAMENTO BLVD AND LAKE ST (5170) : 3,667 (0.697%)
+  ASHLAND AVE AND 87TH ST (5220) : 3,589 (0.682%)
+  ASHLAND AVE AND DIVISION ST (5167) : 3,587 (0.682%)
+  KOSTNER AVE AND NORTH AVE (5185) : 3,551 (0.675%)
+  PULASKI RD AND IRVING PARK RD (5146) : 3,529 (0.671%)
+  WESTERN AVE AND 55TH ST (5032) : 3,525 (0.670%)
+  PULASKI RD AND CERMAK RD (5209) : 3,521 (0.669%)
+  ELSTON AVE AND ADDISON ST (5134) : 3,502 (0.665%)
+  ASHLAND AVE AND MADISON ST (5179) : 3,436 (0.653%)
+  WESTERN AVE AND FOSTER AVE (5108) : 3,336 (0.634%)
+  HALSTED ST AND 119TH ST (5215) : 3,323 (0.631%)
+  ASHLAND AVE AND LAWRENCE AVE (5114) : 3,255 (0.619%)
+  CENTRAL AVE AND LAKE ST (5162) : 3,049 (0.579%)
+  HAMLIN AVE AND LAKE ST (5176) : 2,981 (0.566%)
+  WESTERN AVE AND 47TH ST (5197) : 2,949 (0.560%)
+  KOSTNER AVE AND ROOSEVELT RD (5208) : 2,916 (0.554%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 2,885 (0.548%)
+  CICERO AVE AND HARRISON ST (5186) : 2,870 (0.545%)
+  CICERO AVE AND 47TH ST (5200) : 2,841 (0.540%)
+  PULASKI RD AND FOSTER AVE (5001) : 2,832 (0.538%)
+  WESTERN AVE AND MARQUETTE RD (5238) : 2,809 (0.534%)
+  ASHLAND AVE AND 71ST ST (5214) : 2,781 (0.528%)
+  CLARK ST AND IRVING PARK RD (5110) : 2,762 (0.525%)
+  CICERO AVE AND ADDISON ST (5150) : 2,740 (0.521%)
+  KILPATRICK AVE AND IRVING PARK RD (5245) : 2,711 (0.515%)
+  ELSTON AVE AND LAWRENCE AVE (5123) : 2,700 (0.513%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 2,681 (0.509%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 2,680 (0.509%)
+  NAGLE AVE AND FOSTER AVE (5106) : 2,670 (0.507%)
+  KEDZIE AVE AND 31ST ST (5196) : 2,663 (0.506%)
+  HOMAN/KIMBALL AVE AND NORTH AVE (5165) : 2,659 (0.505%)
+  HALSTED ST AND MADISON ST (5175) : 2,634 (0.501%)
+  HALSTED ST AND NORTH AVE (5164) : 2,600 (0.494%)
+  HALSTED ST AND FULLERTON PKWY (5158) : 2,557 (0.486%)
+  KEDZIE AVE AND 47TH ST (5194) : 2,523 (0.479%)
+  STONY ISLAND AVE AND 79TH ST (5221) : 2,467 (0.469%)
+  LASALLE DR AND KINZIE ST (5180) : 2,463 (0.468%)
+  WESTERN AVE AND LAWRENCE AVE (5118) : 2,457 (0.467%)
+  HALSTED ST AND 95TH ST (5229) : 2,451 (0.466%)
+  KEDZIE AVE AND ARMITAGE AVE (5171) : 2,403 (0.457%)
+  HALSTED ST AND 79TH ST (5226) : 2,394 (0.455%)
+  PULASKI RD AND 63RD ST (5210) : 2,394 (0.455%)
+  DAMEN AVE AND 63RD ST (5241) : 2,344 (0.445%)
+  HALSTED ST AND 103RD ST (5230) : 2,285 (0.434%)
+  ELSTON AVE AND IRVING PARK RD (5142) : 2,283 (0.434%)
+  HARLEM AVE AND BELMONT AVE (5133) : 2,277 (0.433%)
+  WESTERN AVE AND NORTH AVE (5173) : 2,261 (0.430%)
+  MILWAUKEE AVE AND DEVON AVE (5122) : 2,238 (0.425%)
+  PULASKI RD AND FULLERTON AVE (5140) : 2,231 (0.424%)
+  KIMBALL AVE AND DIVERSEY AVE (5147) : 2,218 (0.421%)
+  WESTERN AVE AND CERMAK RD (5052) : 2,111 (0.401%)
+  MILWAUKEE AVE AND MONTROSE AVE (5130) : 2,100 (0.399%)
+  KEDZIE AVE AND 71ST ST (5008) : 2,097 (0.398%)
+  CICERO AVE AND NORTH AVE (5187) : 2,074 (0.394%)
+  CENTRAL AVE AND CHICAGO AVE (5183) : 2,055 (0.391%)
+  CICERO AVE AND CHICAGO AVE (5166) : 2,050 (0.390%)
+  PULASKI RD AND CHICAGO AVE (5051) : 2,046 (0.389%)
+  PULASKI RD AND DIVISION ST (5168) : 1,998 (0.380%)
+  BROADWAY AND FOSTER AVE (5111) : 1,967 (0.374%)
+  AUSTIN AVE AND IRVING PARK RD (5116) : 1,946 (0.370%)
+  CICERO AVE AND DIVERSEY AVE (5157) : 1,928 (0.366%)
+  CLARK ST AND RIDGE AVE (5043) : 1,869 (0.355%)
+  PULASKI RD AND ARMITAGE AVE (5172) : 1,791 (0.340%)
+  CALIFORNIA AVE AND PETERSON AVE (5126) : 1,782 (0.339%)
+  WESTERN AVE AND CHICAGO AVE (5182) : 1,755 (0.333%)
+  WESTERN AVE AND 35TH ST (5193) : 1,728 (0.328%)
+  ASHLAND AVE AND IRVING PARK RD (5115) : 1,723 (0.327%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 1,653 (0.314%)
+  PULASKI RD AND PETERSON AVE (5121) : 1,643 (0.312%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 1,635 (0.311%)
+  KEDZIE AVE AND 79TH ST (5219) : 1,623 (0.308%)
+  KEDZIE AVE AND IRVING PARK RD (5129) : 1,615 (0.307%)
+  CICERO AVE AND FULLERTON AVE (5021) : 1,600 (0.304%)
+  CICERO AVE AND PETERSON AVE (5054) : 1,581 (0.300%)
+  AUSTIN AVE AND ADDISON ST (5141) : 1,574 (0.299%)
+  PULASKI RD AND 79TH ST (5033) : 1,546 (0.294%)
+  LARAMIE AVE AND IRVING PARK RD (5145) : 1,538 (0.292%)
+  PULASKI RD AND DIVERSEY AVE (5083) : 1,531 (0.291%)
+  CENTRAL AVE AND ADDISON ST (5156) : 1,529 (0.291%)
+  PULASKI RD AND ARCHER AVE (5015) : 1,502 (0.285%)
+  HARLEM AVE AND ADDISON ST (5148) : 1,483 (0.282%)
+  PULASKI RD AND 55TH ST (5029) : 1,474 (0.280%)
+  SHERIDAN RD AND FOSTER AVE (5113) : 1,457 (0.277%)
+  OAK PARK AVE AND GRAND AVE (5144) : 1,456 (0.277%)
+  JEFFERY BLVD AND 95TH ST (5225) : 1,415 (0.269%)
+  WESTERN AVE AND 79TH ST (5031) : 1,412 (0.268%)
+  CLARK ST AND FULLERTON AVE (5152) : 1,407 (0.267%)
+  CICERO AVE AND ARMITAGE AVE (5184) : 1,394 (0.265%)
+  WESTERN AVE AND MADISON ST (5181) : 1,358 (0.258%)
+  CALIFORNIA AVE AND DEVON AVE (5127) : 1,347 (0.256%)
+  KEDZIE AVE AND 26TH ST (5213) : 1,335 (0.254%)
+  PULASKI RD AND BELMONT AVE (5132) : 1,312 (0.249%)
+  KEDZIE AVE AND 55TH ST (5078) : 1,307 (0.248%)
+  OSCEOLA AVE AND TOUHY AVE (5119) : 1,266 (0.241%)
+  WESTERN AVE AND ADDISON ST (5014) : 1,243 (0.236%)
+  PULASKI RD AND NORTH AVE (5075) : 1,230 (0.234%)
+  WESTERN BLVD AND PERSHING RD (5002) : 1,227 (0.233%)
+  KEDZIE AVE AND 63RD ST (5211) : 1,220 (0.232%)
+  DAMEN AVE AND ELSTON AVE (5250) : 1,152 (0.219%)
+  COTTAGE GROVE AVE AND 71ST ST (5228) : 1,147 (0.218%)
+  AUSTIN AVE AND DIVERSEY AVE (5139) : 1,131 (0.215%)
+  WESTERN AVE AND DEVON AVE (5025) : 1,120 (0.213%)
+  LARAMIE AVE AND FULLERTON AVE (5137) : 981 (0.186%)
+  STONY ISLAND AVE AND 95TH ST (5224) : 952 (0.181%)
+  CENTRAL AVE AND BELMONT AVE (5149) : 951 (0.181%)
+  WESTERN AVE AND 63RD ST (5212) : 939 (0.178%)
+  PULASKI AVE AND LAWRENCE AVE (5117) : 934 (0.177%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 865 (0.164%)
+  WESTERN AVE AND DIVERSEY AVE (5138) : 829 (0.158%)
+  WESTERN AVE AND 71ST ST (5232) : 720 (0.137%)
+  CENTRAL AVE AND MILWAUKEE AVE (5247) : 713 (0.135%)
+  WESTERN AVE AND TOUHY AVE (5120) : 625 (0.119%)
+  CENTRAL AVE AND DIVERSEY AVE (5153) : 535 (0.102%)
+  NORTHWEST HWY AND FOSTER AVE (5246) : 485 (0.092%)
+  DAMEN AVE AND FULLERTON AVE (5154) : 26 (0.005%)
+Total Red Light Violations in 2017 : 526,237
+
+Number of Speed Violations at Each Intersection for 2017
+  CICERO AVE AND LAWRENCE AVE (5071) : 89,792 (8.842%)
+  PULASKI RD AND FOSTER AVE (5001) : 55,625 (5.478%)
+  HALSTED ST AND 127TH ST (5022) : 50,073 (4.931%)
+  CALIFORNIA AVE AND IRVING PARK RD (5037) : 41,772 (4.113%)
+  OGDEN AVE AND TAYLOR ST (5010) : 39,204 (3.861%)
+  CENTRAL AVE AND JACKSON BLVD (5028) : 37,374 (3.680%)
+  KEDZIE AVE AND 71ST ST (5008) : 36,887 (3.632%)
+  COTTAGE GROVE AVE AND 55TH ST (5007) : 35,032 (3.450%)
+  INDIANAPOLIS AVE AND 103RD ST (5057) : 32,146 (3.166%)
+  SHERIDAN RD AND IRVING PARK RD (5044) : 25,792 (2.540%)
+  CALIFORNIA AVE AND ROOSEVELT RD (5009) : 25,249 (2.486%)
+  RACINE AVE AND GARFIELD BLVD (5056) : 25,226 (2.484%)
+  ASHLAND AVE AND ARCHER AVE (5068) : 23,383 (2.303%)
+  WESTERN BLVD AND PERSHING RD (5002) : 23,219 (2.286%)
+  ASHLAND AVE AND 83RD ST (5079) : 22,948 (2.260%)
+  HUMBOLDT DR AND NORTH AVE (5005) : 21,539 (2.121%)
+  NARRAGANSETT AVE AND IRVING PARK RD (5038) : 16,583 (1.633%)
+  WESTERN AVE AND 55TH ST (5032) : 16,576 (1.632%)
+  WESTERN AVE AND ADDISON ST (5014) : 16,550 (1.630%)
+  JEFFERY BLVD AND 75TH ST (5047) : 16,133 (1.589%)
+  CENTRAL AVE AND IRVING PARK RD (5024) : 15,870 (1.563%)
+  ASHLAND AVE AND FULLERTON AVE (5042) : 15,583 (1.535%)
+  LINCOLN AVE AND PETERSON AVE (5012) : 14,928 (1.470%)
+  MICHIGAN AVE AND 63RD ST (5070) : 13,785 (1.357%)
+  PULASKI RD AND ARCHER AVE (5015) : 13,724 (1.351%)
+  OGDEN AVE AND WASHINGTON BLVD (5035) : 13,695 (1.349%)
+  CENTRAL PARK AVE AND MADISON ST (5004) : 12,539 (1.235%)
+  CLARK ST AND RIDGE AVE (5043) : 12,169 (1.198%)
+  PULASKI RD AND NORTH AVE (5075) : 11,819 (1.164%)
+  WESTERN AVE AND DEVON AVE (5025) : 11,688 (1.151%)
+  CICERO AVE AND PETERSON AVE (5054) : 10,694 (1.053%)
+  EWING AVE AND 96TH ST (5066) : 10,680 (1.052%)
+  PULASKI RD AND ROOSEVELT RD (5077) : 10,652 (1.049%)
+  WESTERN AVE AND MONTROSE AVE (5026) : 10,574 (1.041%)
+  PULASKI RD AND CHICAGO AVE (5051) : 10,242 (1.009%)
+  MILWAUKEE AVE AND HIGGINS AVE (5048) : 9,565 (0.942%)
+  NARRAGANSETT AVE AND FULLERTON AVE (5018) : 8,751 (0.862%)
+  WESTERN AVE AND 79TH ST (5031) : 8,705 (0.857%)
+  CENTRAL PARK AVE AND JACKSON BLVD (5003) : 7,749 (0.763%)
+  WESTERN AVE AND 51ST ST (5046) : 6,167 (0.607%)
+  SACRAMENTO BLVD AND JACKSON BLVD (5058) : 6,063 (0.597%)
+  CLYBOURN AVE AND FULLERTON AVE (5041) : 5,953 (0.586%)
+  STATE ST AND HARRISON ST (5016) : 5,569 (0.548%)
+  VINCENNES AVE AND 111TH ST (5011) : 5,392 (0.531%)
+  PULASKI RD AND 79TH ST (5033) : 5,353 (0.527%)
+  MICHIGAN AVE AND 95TH ST (5017) : 5,323 (0.524%)
+  CENTRAL AVE AND FULLERTON AVE (5019) : 5,261 (0.518%)
+  COLUMBUS DR AND ILLINOIS ST (5060) : 5,149 (0.507%)
+  WESTERN AVE AND DIVISION ST (5061) : 5,090 (0.501%)
+  JEFFERY BLVD AND 87TH ST (5069) : 5,057 (0.498%)
+  KEDZIE AVE AND FOSTER AVE (5013) : 5,013 (0.494%)
+  KEDZIE AVE AND AUGUSTA BLVD (5006) : 4,949 (0.487%)
+  PULASKI RD AND 55TH ST (5029) : 4,806 (0.473%)
+  KEDZIE AVE AND JACKSON BLVD (5059) : 4,508 (0.444%)
+  EWING AVE AND 95TH ST (5065) : 4,457 (0.439%)
+  ASHLAND AVE AND NORTH AVE (5053) : 4,067 (0.400%)
+  MARTIN LUTHER KING DR AND 63RD ST (5072) : 4,029 (0.397%)
+  NORTHWEST HWY AND BRYN MAWR AVE (5076) : 3,928 (0.387%)
+  ASHLAND AVE AND CERMAK RD (5067) : 3,861 (0.380%)
+  ASHLAND AVE AND LAKE ST (5034) : 3,735 (0.368%)
+  HALSTED ST AND 31ST ST (5055) : 3,450 (0.340%)
+  VINCENNES AVE AND 75TH ST (5030) : 3,275 (0.323%)
+  CICERO AVE AND FULLERTON AVE (5021) : 3,198 (0.315%)
+  MILWAUKEE AVE AND BELMONT AVE (5040) : 2,846 (0.280%)
+  WESTERN AVE AND CERMAK RD (5052) : 2,792 (0.275%)
+  CENTRAL AVE AND GRAND AVE (5020) : 2,572 (0.253%)
+  NAGLE AVE AND NORTHWEST HWY (5074) : 2,504 (0.247%)
+  PULASKI RD AND 111TH ST (5023) : 2,473 (0.244%)
+  MILWAUKEE AVE AND LAWRENCE AVE (5049) : 1,981 (0.195%)
+  ASHLAND AVE AND LINCOLN AVE (5080) : 1,933 (0.190%)
+  CICERO AVE AND BELMONT AVE (5039) : 1,693 (0.167%)
+  CENTRAL AVE AND HARRISON ST (5062) : 1,650 (0.162%)
+  WESTERN AVE AND 103RD ST (5073) : 1,602 (0.158%)
+  VINCENNES AVE AND 76TH ST (5064) : 1,095 (0.108%)
+  BROADWAY AND MONTROSE AVE (5045) : 1,048 (0.103%)
+  NARRAGANSETT AVE AND BELMONT AVE (5050) : 878 (0.086%)
+  KEDZIE AVE AND 55TH ST (5078) : 852 (0.084%)
+  LINCOLN AVE AND MONTROSE AVE (5027) : 570 (0.056%)
+  STATE ST AND CHICAGO AVE (5063) : 472 (0.046%)
+  CALIFORNIA AVE AND MONTROSE AVE (5036) : 361 (0.036%)
+Total Speed Violations in 2017 : 1,015,490
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: Enter a year: Monthly Violations for Camera 3084 in 2024
+01/2024 : 63
+02/2024 : 74
+03/2024 : 64
+04/2024 : 87
+05/2024 : 65
+06/2024 : 77
+07/2024 : 62
+08/2024 : 61
+09/2024 : 54
+10/2024 : 73
+11/2024 : 52
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter the date that you would like to look at (format should be YYYY-MM-DD): Number of Red Light Violations: 1,410 (18.142%)
+Number of Speed Violations: 6,362 (81.858%)
+Total Number of Violations: 7,772
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a camera ID: Yearly Violations for Camera 3043
+2018 : 1,673
+2019 : 1,088
+2020 : 880
+2021 : 1,099
+2022 : 1,232
+2023 : 995
+2024 : 626
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a street name: 
+List of Cameras Located on Street: CICERO
+  Red Light Cameras:
+     1041 : 4800 N CICERO AVE (41.96804801, -87.74787598)
+     1042 : 4800 N CICERO AVENUE (41.96804801, -87.74787598)
+     1202 : 6000 N CICERO AVENUE (41.98997392, -87.74847302)
+     1472 : 2400 N CICERO AVE (41.92428359, -87.74645019)
+     1611 : 3600 N CICERO AVENUE (41.94616352, -87.74721517)
+     1612 : 3600 N CICERO AVENUE (41.94616352, -87.74721517)
+     1691 : 2800 N CICERO AVENUE (41.93157561, -87.7467433)
+     1781 : 800 N CICERO AVENUE (41.89504904, -87.74595552)
+     1891 : 100 N CICERO AVENUE (41.88187971, -87.74548925)
+     1892 : 100 N CICERO AVENUE (41.88187971, -87.74548925)
+     2001 : 2000 N CICERO AVENUE (41.91697332, -87.74626022)
+     2022 : 600 S CICERO AVENUE (41.87309483, -87.74514387)
+     2081 : 5200 S CICERO AVE (41.79855828, -87.74307187)
+     2202 : 4700 S CICERO AVE (41.80753037, -87.74329682)
+     2251 : 4200 S CICERO AVENUE (41.81672939, -87.74353671)
+     2252 : 4200 S CICERO AVENUE (41.81672939, -87.74353671)
+  Speed Cameras:
+     9114 : 6125 N CICERO AVE (41.99209088, -87.74818249)
+     9149 : 4909 N CICERO AVE (41.97013474, -87.7477238)
+
+Plot? (y/n) 
+
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> 
+Enter a year: Red Light Violations:
+2022-01-01 1080
+2022-01-02 949
+2022-01-03 1231
+2022-01-04 1403
+2022-01-05 1154
+2022-12-27 1350
+2022-12-28 1539
+2022-12-29 1429
+2022-12-30 1738
+2022-12-31 1875
+Speed Violations:
+2022-01-01 3703
+2022-01-02 5125
+2022-01-03 6690
+2022-01-04 7220
+2022-01-05 4817
+2022-12-27 3537
+2022-12-28 4212
+2022-12-29 3834
+2022-12-30 4141
+2022-12-31 5282
+
+Plot? (y/n) 
+Select a menu option: 
+  1. Find an intersection by name
+  2. Find all cameras at an intersection
+  3. Percentage of violations for a specific date
+  4. Number of cameras at each intersection
+  5. Number of violations at each intersection, given a year
+  6. Number of violations by year, given a camera ID
+  7. Number of violations by month, given a camera ID and year
+  8. Compare the number of red light and speed violations, given a year
+  9. Find cameras located on a street
+or x to exit the program.
+Your choice --> Exiting program.
